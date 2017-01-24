@@ -34,7 +34,7 @@ else if(!empty($option['menu_background_width'])) {
 	</div>
 <?php } ?>
 <div class="header-wrap" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-	<?php if ( true == get_theme_mod( 'mt_header_top', true ) ) {  ?>
+	<?php if ( true == get_theme_mod( 'mt_header_top', false ) ) {  ?>
 		<div class="header-mt-container-wrap">
 			<div class="container mt-header-container">
 				<div class="row">
