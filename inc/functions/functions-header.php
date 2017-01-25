@@ -66,7 +66,7 @@ else if(!empty($option['menu_background_width'])) {
 
 
 
-						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', true ) ) { echo "hide-desktop"; } ?>">
+						<div class="nav-button mt-radius pointer  <?php if ( false == get_theme_mod( 'mt_menu_small_on', false ) ) { echo "hide-desktop"; } ?>">
 							<div class="mt-m-cool-button">
 								<span class="mt-m-cool-button-line"></span>
 							</div>
@@ -78,7 +78,7 @@ else if(!empty($option['menu_background_width'])) {
 							<?php fullstory_nav(); ?>
 						</div>
 
-						<?php if ( true == get_theme_mod( 'mt_menu_search', true ) ) { ?>
+						<?php if ( true == get_theme_mod( 'mt_menu_search', false ) ) { ?>
 							<div class="nav-search-wrap  mt-radius">
 								<div class="nav-search pointer"></div>
 								<div class="nav-search-input mt-radius">
@@ -142,7 +142,7 @@ function fullstory_logo() {
 		</a>
 	<?php } else { ?>
 		<a class="logo"  href="<?php echo esc_url(home_url('/'));?>">
-			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="21" alt="<?php echo the_title(); ?>" />
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="15" alt="<?php echo the_title(); ?>" />
 		</a>
 	<?php }
 }
