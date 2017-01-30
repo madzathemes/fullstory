@@ -51,8 +51,8 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .mt-subscribe-footer input.mt-s-b:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover {
-  background: yellow;
-  color: #222
+  background: #2196f3;
+  color: #fff
 }
 .mt-theme-text,
 a:hover,
@@ -62,73 +62,8 @@ a:hover,
   color: #ff0036;
 }
 
-.mt-radius-5 .mt-radius,
-.mt-radius-5 .mt-radius-b:before,
-.mt-radius-5 textarea,
-.mt-radius-5 input,
-.mt-radius-5 .dropdown-menu,
-.mt-radius-5 .sub-menu,
-.mt-radius-5 ul.sf-menu ul li a,
-.mt-radius-5 div.sf-menu ul ul li a,
-.mt-radius-5 .df-is-megamenu ul li,
-.mt-radius-5 .mt-coment-nav a,
-.mtc-border-5  {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.mt-radius-25 .mt-radius,
-.mt-radius-25 .mt-radius-b:before,
-.mt-radius-25 textarea,
-.mt-radius-25 input,
-.mt-radius-25 .dropdown-menu,
-.mt-radius-25 .sub-menu,
-.mt-radius-25 ul.sf-menu ul li a,
-.mt-radius-25 div.sf-menu ul ul li a,
-.mt-radius-25 .df-is-megamenu ul li,
-.mt-radius-25 .mt-coment-nav a,
-.mtc-border-25,
-.mct-box:hover:before,
-.mct-box.active:before,
-.mt-pagepagination a {
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-}
-.mt-radius-25 .mt-subscribe-footer .mt-s-b,
-.mt-radius-5 .mt-subscribe-footer .mt-s-b  {
-  width: 33%!important;
-  margin-left: 2%;
-}
-.mt-radius-5 .poster-image::before {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
+.mt-menu-full .header-menu > .container { width: 100%;  }
 
-.mt-color-2 .post-content-wrap,
-.mt-color-2.post-style-6 .post-media-wrap,
-.mt-color-2.post-style-4 .post-media-wrap,
-.mt-color-2 .header-wrap,
-.mt-color-2 .footer-wrap,
-.mt-color-2 .mt-container-wrap,
-.mt-color-2 .single-top,
-.mt-color-2 .post-media-wrap {
-  background: #ecedf1;
-}
-.mt-color-2 .menu-background,
-.mt-color-2 .menu-background-left,
-.mt-color-2 .menu-background-right,
-.mt-color-2 .single-share-socials:before,
-.mt-color-2 .share li.share-more a .share-more-icon,
-.mt-color-2 .share-more-wrap .share-more-icon,
-.mt-color-2 .df-is-megamenu ul li,
-.mt-color-2 ul.sf-menu ul li a,
-.mt-color-2 div.sf-menu ul ul li a,
-.mt-color-2 textarea,
-.mt-color-2 input {
-  background: white;
-}
 .panel-grid {
   margin-bottom: 0px;
 }
@@ -1064,8 +999,8 @@ ul.sf-menu ul li .mt-menu-cursor, div.sf-menu ul ul li .mt-menu-cursor {
 }
 ul.sf-menu ul li a, div.sf-menu ul ul li a {
   padding: 11px 15px;
-  background: #fff;
-  border: 1px solid #eeeeee;
+  background: rgba(0, 0, 0, 0.92);
+  border: 1px solid #000000;
   width: 100%;
   margin: -1px 0px 0px;
   text-transform: capitalize;
@@ -1106,13 +1041,12 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   content: "";
   width: 0%;
   display: inline-block;
-  height: 20px;
-  margin-top: -10px;
+  height: 2px;
   float: left;
-  top: 50%;
+  top: 70%;
   position: absolute;
   z-index: -1;
-  background: yellow;
+  background: #ff0036;
 }
 .sf-menu > li.current_page_item > a::before,
 .sf-menu > li > a:hover::before {
@@ -1168,6 +1102,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 /* HEAD LOGO */
 .head-logo {
   padding: 0px 0px 0px 0px;
+  width: 150px
 }
 
 /* HEAD NAV */
@@ -1251,6 +1186,10 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   color: #19191a;
 }
 
+.mt-head-right {
+  text-align: right;
+}
+
 
 
 
@@ -1304,7 +1243,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   font-size: 13px;
 }
 .top-nav .nav {
-  text-align: center;
+  text-align: left;
 }
 .top-nav .nav ul li {
   text-align: left;
@@ -1522,6 +1461,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 .nav-search {
   padding: 0px 20px 0px 20px;
   height: 46px;
+  position: relative;
 }
 .search-close{
   position: absolute;
@@ -1576,6 +1516,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 }
 .nav-search-wrap {
   width: 45px;
+  display: inline-block;
 }
 .nav-search-wrap .nav-search-input {
   width: 100%;
@@ -1771,7 +1712,7 @@ h2.heading span {
 .poster .number {
   width: 20px;
   height: 20px;
-  color: #222;
+  color: #fff;
   font-size: 11px;
   font-weight: 900;
   text-align: center;
@@ -1820,7 +1761,7 @@ h2.heading span {
 .poster.size-normal .poster-cat span,
 .poster.trending-normal .poster-cat span,
 .poster.trending-carousel .poster-cat span {
-  color: #222 !important;
+  color: #fff !important;
   font-size: 11px;
   font-weight: 700;
 }
@@ -1906,8 +1847,8 @@ h2.heading span {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  background: yellow;
-  color: #222;
+  background: #2196f3;
+  color: #fff;
   padding: 2px 4px;
 }
 .size-normal .poster-cat span,
@@ -2315,6 +2256,16 @@ h2.heading span {
   float: right;
   clear: none;
 }
+.commentlist .pingback:first-child {
+  margin-top: 20px;
+}
+.post-password-form input {
+  width: auto;
+  padding: 15px;
+  line-height: 1;
+  margin-left: 10px;
+  font-size: 17px;
+}
 
 /* Post Carousel */
 .post-carousel {
@@ -2705,7 +2656,6 @@ opacity: 0.7
 .post-password-form label {
   text-transform: uppercase;
   font-size: 13px;
-  display: block;
 }
 .post-password-form input {
   margin-top: 10px;
@@ -4492,6 +4442,8 @@ ul.page-numbers li {
     -moz-transform-origin: 50% 200px 0;
     -o-transform-origin: 50% 200px 0;
     transform-origin: 50% 200px 0;
+    border: 5px solid black;
+    border-top-width: 0px
 }
 
 .mt-smart-menu .close:before {

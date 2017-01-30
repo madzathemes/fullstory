@@ -78,6 +78,8 @@ else if(!empty($option['menu_background_width'])) {
 							<?php fullstory_nav(); ?>
 						</div>
 
+
+						<div class="mt-head-right">
 						<?php if ( true == get_theme_mod( 'mt_menu_search', false ) ) { ?>
 							<div class="nav-search-wrap  mt-radius">
 								<div class="nav-search pointer"></div>
@@ -89,6 +91,8 @@ else if(!empty($option['menu_background_width'])) {
 							</div>
 							<div class="search-close"></div>
 						<?php } ?>
+							<?php fullstory_socials(); ?>
+						</div>
 					</div>
 				</div>
 			</div>
