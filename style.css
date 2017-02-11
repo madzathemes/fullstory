@@ -731,7 +731,7 @@ table {
 }
 .header-wrap {
   z-index: 9999;
-  position: relative;
+  position: fixed;
 }
 .header-mt-container-wrap {
   background: #222;
@@ -5241,6 +5241,14 @@ li.mtc-buy {
   height: 100%;
   position: absolute;
   z-index: 999;
+}
+.mt-slide-1-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 999
 }
 
 /* mt Head */

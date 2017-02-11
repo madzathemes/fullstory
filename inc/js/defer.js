@@ -39,10 +39,6 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-  jQuery(window).resize(function () {
-       jQuery(this).trigger("scroll");
-   });
-
 jQuery(document).ready(function() {
   'use strict';
 
@@ -85,18 +81,13 @@ jQuery(document).ready(function() {
   var windows = jQuery(window);
 
   windows.scroll(function(){
-    var fromTop = windows.scrollTop();
-		if (windows.scrollTop() > 200) {
-			footer_button.addClass("active");
-      body.addClass("fixed-on");
-		} else {
-			footer_button.removeClass("active");
-      body.removeClass("fixed-on");
-		}
+
     if (windows.scrollTop() > 47) {
       body.addClass("fix-menu");
+      body.addClass("fixed-on");
 		} else {
       body.removeClass("fix-menu");
+      body.removeClass("fixed-on");
 		}
     return false;
 	});
