@@ -161,6 +161,8 @@ jQuery(document).ready(function() {
     }
   });
 
+
+
     //Function to add commas to the thousandths
     jQuery.fn.digits = function(){
       return this.each(function(){
@@ -171,7 +173,6 @@ jQuery(document).ready(function() {
     function kFormatter(num) {
       return num > 999 ? (num/1000).toFixed(1) + 'k' : num;
     }
-
 
 });
 

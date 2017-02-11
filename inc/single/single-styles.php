@@ -14,8 +14,9 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <?php fullstory_single_social(); ?>
             <?php fullstory_single_media(); ?>
+
+              <?php fullstory_single_social(); ?>
             <div class="entry-content" itemprop="mainContentOfPage"><?php the_content(); ?></div>
             <?php fullstory_single_bottom(); ?>
           </div>

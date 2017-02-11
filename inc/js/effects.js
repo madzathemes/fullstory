@@ -15,8 +15,8 @@ jQuery(document).ready(function() {
   jQuery(".mt-smart-menu .menu-item-has-children").append("<span></span>");
   jQuery('body').addClass("shadow-wrap");
 
-
 });
+
 
 
 
