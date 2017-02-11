@@ -5220,7 +5220,7 @@ li.mtc-buy {
 }
 .mt-slide-1-cat {
   color: white;
-  background: #ff0036;
+  background: rgba(0, 0, 0, 0.21);
   font-size: 12px;
   text-transform: uppercase;
   display: inline-block;
