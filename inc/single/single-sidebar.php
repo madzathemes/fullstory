@@ -8,14 +8,13 @@
 
   <?php } else { ?>
 
+    <?php if  (!empty($optionz['sidebar_ad_top'])) {  ?>
+      <div class="advertise text-center">
+        <?php echo html_entity_decode($optionz['sidebar_ad_top']); ?>
+      </div>
+    <?php } ?>
+
     <?php if ( shortcode_exists( 'posts' ) ) { echo do_shortcode('[posts type=normal title="'. esc_html__( 'Featured Post','fullstory' ) .'" title_type="center" offset="0" item_nr=1]'); } ?>
-
-
-        <?php if  (!empty($optionz['sidebar_ad_top'])) {  ?>
-          <div class="advertise text-center">
-            <?php echo html_entity_decode($optionz['sidebar_ad_top']); ?>
-          </div>
-        <?php } ?>
 
     <?php if  (!empty($optionz['sidebar_ad_middle'])) {  ?>
       <div class="advertise text-center">
