@@ -160,7 +160,7 @@ input,
  .menu-item-has-children:after,
 .container,
 .sf-menu ul,
-.header-wrapt{
+.header-wrap{
   -webkit-transition: all 400ms ease-out!important;
   -moz-transition: all 400ms ease-out!important;
   -ms-transition: all 400ms ease-out!important;
