@@ -923,16 +923,9 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
 }
 .df-is-megamenu ul .poster-cat {
   position: absolute;
-  bottom: 18px;
-  left: 15px;
+  bottom: 13px;
+  left: 10px;
   z-index: 999;
-}
-.df-is-megamenu ul .poster-cat span {
-  font-size: 11px;
-  display: inline-block;
-  padding: 2px 4px;
-  text-transform: uppercase;
-  background: #ff0036;
 }
 .mt-megamenu-img {
   height:150px;
@@ -1772,13 +1765,7 @@ h2.heading span {
 .poster.trending-carousel .poster-info {
   margin-left: 20px;
 }
-.poster.size-normal .poster-cat span,
-.poster.trending-normal .poster-cat span,
-.poster.trending-carousel .poster-cat span {
-  color: #fff !important;
-  font-size: 11px;
-  font-weight: 700;
-}
+
 .trending-normal small {
   display: none;
 }
@@ -1856,18 +1843,17 @@ h2.heading span {
   display: none;
   bottom: 10px;
 }
+.poster-cat {
+  background: none!important;
+}
 .poster-cat span {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   background: rgba(0, 0, 0, 0.33);
   color: #fff;
-  padding: 4px 6px
-}
-.size-normal .poster-cat span,
-.trending-normal .poster-cat span {
-  padding: 4px 5px !important;
+  padding: 3px 6px
 }
 .poster-data {
   display: inline;
@@ -1906,6 +1892,7 @@ h2.heading span {
   font-size: 16px;
   opacity: 1;
   margin: -7px -7px;
+  display: none;
 }
 .poster-data {
   display: none!important;
@@ -2607,13 +2594,6 @@ opacity: 0.7
   display: none;
 }
 
-.grid-post .poster-cat span {
-  position: relative;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-  padding: 2px 4px;
-}
 .grid-post.style-1.nr-3 .post-info,
 .grid-post.style-1.nr-4 .post-info {
   display: none;
