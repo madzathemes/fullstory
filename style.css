@@ -5258,11 +5258,14 @@ li.mtc-buy {
   float:left
 }
 .mt-cool-slider-small-title {
-  width: 300px;
+  width: 350px;
   float:right;
   height: 100%;
   overflow: hidden;
   padding-top: 0px;
+}
+.mt-cool-slider-small-title .mt-slide-1-title {
+  height: 100px;
 }
 .mt-cool-slider-small-title > div {
   margin-top: 40px;

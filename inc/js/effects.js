@@ -119,7 +119,6 @@ jQuery(document).ready(function() {
     autoplay: $autoplay,
     autoplayTimeout:7000,
     speed:1200,
-    adaptiveHeight: true,
     vertical: true,
     pauseOnFocus: false,
     pauseOnHover: false,
