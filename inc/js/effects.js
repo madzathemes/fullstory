@@ -51,6 +51,81 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 jQuery(document).ready(function() {
   'use strict';
 
+  jQuery('.mt-cool-slider-carousel').slick({
+     arrows: false,
+     rtl: $rtl,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     initialSlide: 2,
+     lazyLoad: 'ondemand',
+     autoplay: $autoplay,
+     autoplayTimeout:5000,
+     speed:1200,
+     pauseOnFocus: false,
+     pauseOnHover: false,
+     draggable: false,
+  });
+
+  jQuery('.mt-slide-1-img-left').slick({
+    arrows: false,
+    rtl: $rtl,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    lazyLoad: 'ondemand',
+    autoplay: $autoplay,
+    autoplayTimeout:6000,
+    speed:1200,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    draggable: false,
+  });
+  jQuery('.mt-slide-1-img-right').slick({
+    arrows: false,
+    rtl: $rtl,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 3,
+    lazyLoad: 'ondemand',
+    autoplay: $autoplay,
+    autoplayTimeout:7000,
+    speed:1200,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    draggable: false,
+  });
+
+  jQuery('.mt-cool-slider-big-title').slick({
+    arrows: false,
+    rtl: $rtl,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 2,
+    lazyLoad: 'ondemand',
+    autoplay: $autoplay,
+    autoplayTimeout:7000,
+    speed:1200,
+    fade: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    draggable: false,
+  });
+  jQuery('.mt-cool-slider-small-title').slick({
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 3,
+    lazyLoad: 'ondemand',
+    autoplay: $autoplay,
+    autoplayTimeout:7000,
+    speed:1200,
+    vertical: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    draggable: false,
+  });
+
+
   jQuery('.post-gallery').slick({
      arrows: false,
      lazyLoad: 'ondemand',
