@@ -115,6 +115,7 @@ jQuery(document).ready(function() {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 3,
+    fade: true,
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
     autoplayTimeout:7000,
