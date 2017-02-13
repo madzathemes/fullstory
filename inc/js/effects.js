@@ -124,6 +124,22 @@ jQuery(document).ready(function() {
     pauseOnHover: false,
     draggable: false,
   });
+  jQuery('.mt-cool-slider-carousel-back').slick({
+    arrows: false,
+    rtl: $rtl,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 2,
+    lazyLoad: 'ondemand',
+    autoplay: $autoplay,
+    autoplayTimeout:7000,
+    speed:1200,
+    fade: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    draggable: false,
+  });
+
 
 
   jQuery('.post-gallery').slick({

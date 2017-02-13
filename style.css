@@ -5238,6 +5238,7 @@ li.mtc-buy {
   height: 290px;
   top: 40px;
   position: absolute;
+  z-index: -3
 }
 .mt-cool-slider .mt-slide-1-img-right {
   right: -120px;
@@ -5276,6 +5277,23 @@ li.mtc-buy {
 .mt-cool-slider-small-title .mt-slide-1-title {
   clear: inherit;
 }
+.mt-cool-slider-carousel-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2
+}
+.mt-post-image-background {
+  height: 370px;
+}
+.mt-cool-slider-carousel-back .slick-list {
+  overflow: inherit!important;
+  height: 100%;
+}
+.mt-cool-slider-carousel-back .slick-list > div {
+  height: 100%;
+}
+
 
 /* mt Head */
 .mt-head {
