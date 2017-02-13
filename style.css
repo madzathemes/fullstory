@@ -5028,10 +5028,8 @@ li.mtc-buy {
   display: inline-block;
   margin: 0 0 0 10px
 }
-
-.mt-tab .poster:hover .post-icon,
-.mt-tab .poster:hover .video-icon {
-
+.poster.normal .poster-content {
+  padding-top: 10px;
 }
 .poster-content .poster-data,
 .poster-content .poster-cat {
@@ -5040,8 +5038,6 @@ li.mtc-buy {
 .mt-readmore {
   display: inline-block!important;
   margin: 5px 0px 0px 0px;
-  position: absolute;
-  bottom: 20px;
 }
 .mt-readmore-url {
   display: inline-block!important;
@@ -5052,11 +5048,7 @@ li.mtc-buy {
   color: white;
   font-weight: 700;
 }
-.mt-tab .poster-content {
-  position: absolute;
-  left: 460px;
-  bottom: 65px;
-}
+
 .mt-tab .poster-content a,
 .mt-tab .poster-content-wrap a {
   margin-top: 0px!important;
