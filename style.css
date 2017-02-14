@@ -5240,9 +5240,11 @@ li.mtc-buy {
   position: absolute;
   z-index: -3
 }
+.mt-cool-slider .mt-slide-1-img-left {
+  left: -120px;
+}
 .mt-cool-slider .mt-slide-1-img-right {
   right: -120px;
-  left:inherit;
 }
 .mt-cool-slider-carousel,
 .mt-cool-slider-text {
