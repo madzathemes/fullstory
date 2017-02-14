@@ -3588,6 +3588,9 @@ opacity: 0.7
   .grid-post.style-3 {
     width: 32.7%;
   }
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 42px!important;
+  }
 
 }
 
@@ -3731,6 +3734,9 @@ opacity: 0.7
     height: 100%;
   }
 
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 36px!important;
+  }
 
 }
 
@@ -3910,7 +3916,9 @@ opacity: 0.7
   .footer-social {
     padding-bottom: 0px;
   }
-
+  .mt-slide-1-title.nr-1 h2 {
+    font-size: 28px !important;
+  }
 }
 
 @media all and (max-width: 782px) {
@@ -3974,6 +3982,10 @@ opacity: 0.7
 }
 
 @media all and (max-width: 645px) {
+  .mt-slide-1-title.nr-1 { width: 90%!important }
+  .mt-slide-1-title.nr-2,
+  .mt-slide-1-title.nr-3,
+  .mt-slide-1-title.nr-4 { display: none }
   .single-subtitle {
     padding-right: 0px;
   }
@@ -5160,6 +5172,8 @@ li.mtc-buy {
   width: 300px;
   clear: right;
   padding: 0px 30px 20px 0px;
+  z-index: 4;
+  position: relative;
 }
 .mt-slide-1-title h2 {
   color: white;
