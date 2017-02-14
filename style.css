@@ -5153,7 +5153,7 @@ li.mtc-buy {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1
+  z-index: 3
 }
 .mt-slide-1-title {
   float:right;
@@ -5237,7 +5237,8 @@ li.mtc-buy {
   height: 290px;
   top: 40px;
   position: absolute;
-  z-index: -3
+  z-index: 1;
+  overflow: hidden;
 }
 .mt-cool-slider .mt-slide-1-img-left {
   left: -120px;
@@ -5250,7 +5251,7 @@ li.mtc-buy {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: -1
+  z-index: 3
 }
 .mt-cool-slider-text {
   z-index: 9999
