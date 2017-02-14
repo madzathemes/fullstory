@@ -5190,12 +5190,12 @@ li.mtc-buy {
 .mt-slide-1-img::before {
   content: " ";
   background: rgba(0,0,0,0.67);
-  background: -moz-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 71%, rgba(0,0,0,0.09) 81%, rgba(0,0,0,0.26) 100%);
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 61%, rgba(0,0,0,0.09) 71%, rgba(0,0,0,0.26) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.67)), color-stop(32%, rgba(0,0,0,0)), color-stop(71%, rgba(0,0,0,0)), color-stop(81%, rgba(0,0,0,0.09)), color-stop(100%, rgba(0,0,0,0.26)));
-  background: -webkit-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 71%, rgba(0,0,0,0.09) 81%, rgba(0,0,0,0.26) 100%);
-  background: -o-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 71%, rgba(0,0,0,0.09) 81%, rgba(0,0,0,0.26) 100%);
-  background: -ms-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 71%, rgba(0,0,0,0.09) 81%, rgba(0,0,0,0.26) 100%);
-  background: linear-gradient(to right, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 71%, rgba(0,0,0,0.09) 81%, rgba(0,0,0,0.26) 100%);
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 61%, rgba(0,0,0,0.09) 71%, rgba(0,0,0,0.26) 100%);
+  background: -o-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 61%, rgba(0,0,0,0.09) 71%, rgba(0,0,0,0.26) 100%);
+  background: -ms-linear-gradient(left, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 61%, rgba(0,0,0,0.09) 71%, rgba(0,0,0,0.26) 100%);
+  background: linear-gradient(to right, rgba(0,0,0,0.67) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 61%, rgba(0,0,0,0.09) 71%, rgba(0,0,0,0.26) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
   width: 100%;
   height: 100%;
