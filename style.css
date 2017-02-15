@@ -1417,7 +1417,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   height: 49px;
 }
 .header-wrap-space {
-  height: 60px;
+  height: 49px;
 }
 .header-menu {
   background: black;
@@ -5366,4 +5366,5 @@ li.mtc-buy {
   height: 200px;
   position: fixed;
   z-index: 9999;
+  background: black;
 }
