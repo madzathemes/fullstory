@@ -44,6 +44,10 @@ if(!empty($style)){
 
 <?php fullstory_header(); ?>
 
+<div class="fixtest">
+	d
+</div>
+
 <?php if(is_front_page()) { ?>
 <div class="container">
 	<div class="row mt-head">
