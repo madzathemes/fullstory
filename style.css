@@ -1615,8 +1615,18 @@ h2.heading span {
   position: relative;
   z-index: 2;
 }
+.socials a:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 45px;
+  right: 0px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
 .social-count {
   position: absolute !important;
+  left: 60px;
 }
 .social-text {
   float: right;
@@ -1644,7 +1654,6 @@ h2.heading span {
   padding-right: 10px;
   margin-right: 10px;
   font-size: 18px;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
   top: 2px;
 }
 .socials a:hover {
