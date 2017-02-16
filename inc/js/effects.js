@@ -117,7 +117,7 @@ jQuery(document).ready(function() {
     initialSlide: 3,
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
-    autoplayTimeout:7000,
+    autoplayTimeout:8000,
     speed:1200,
     vertical: true,
     pauseOnFocus: false,
