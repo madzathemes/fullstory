@@ -1737,15 +1737,19 @@ h2.heading span {
   margin-left: -15px;
   top: -10px;
 }
-.poster-image::after {
+.poster-image a::after {
   content: '';
-  background: black;
+  background: rgba(0, 0, 0, 0.82);
   width: 100%;
   height: 100%;
   left:0px;
   top:0px;
   position: absolute;
-  z-index: 1
+  z-index: 1;
+  opacity: 0;
+}
+.poster-image a:hover::after {
+  opacity: 1;
 }
 .poster.trending-normal .poster-image {
   width: 100%;
