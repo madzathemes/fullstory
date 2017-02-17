@@ -2538,6 +2538,9 @@ opacity: 0.7
 .grid-post:hover::before {
   opacity:1;
 }
+.grid-post:hover .poster-cat span {
+  background:#ff0036
+}
 .grid-post.style-3 {
   width: 32.8%;;
 }
