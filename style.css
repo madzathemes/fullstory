@@ -142,7 +142,8 @@ input,
 .df-is-megamenu ul,
 .search-close,
 .nav-search-input,
-.nav-search-wrap {
+.nav-search-wrap,
+.grid-post::before {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
