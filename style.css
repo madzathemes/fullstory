@@ -1434,7 +1434,6 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   -webkit-transform: translate(0,-130px); /** Safari & Chrome **/
   -o-transform: translate(0,-130px); /** Opera **/
   -moz-transform: translate(0,-130px); /** Firefox **/
-  -webkit-transform: translateZ(0);
 }
 .fixed-on .fixed-top {
   transform: translate(0,0);
