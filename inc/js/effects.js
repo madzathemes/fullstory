@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
     autoplayTimeout:1000,
-    speed:2200,
+    speed:1800,
     vertical: true,
     pauseOnFocus: false,
     pauseOnHover: false,
