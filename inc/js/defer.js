@@ -1,43 +1,3 @@
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 20;
-var windowsz = jQuery(window);
-var bodyz = jQuery('body');
-windowsz.scroll(function(event){
-    didScroll = true;
-
-});
-
-
-function repeatOften() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-  requestAnimationFrame(repeatOften);
-}
-requestAnimationFrame(repeatOften);
-
-function hasScrolled() {
-    'use strict';
-    var st = windowsz.scrollTop();
-
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop){
-        // Scroll Down
-        bodyz.removeClass('nav-down').addClass('nav-up');
-    } else {
-        bodyz.removeClass('nav-up').addClass('nav-down');
-    }
-
-    lastScrollTop = st;
-}
 
 jQuery(document).ready(function() {
   'use strict';
@@ -80,17 +40,7 @@ jQuery(document).ready(function() {
   var footer_button = jQuery('.footer-scroll-to-top');
   var windows = jQuery(window);
 
-  windows.scroll(function(){
 
-    if (windows.scrollTop() > 47) {
-      body.addClass("fix-menu");
-      body.addClass("fixed-on");
-		} else {
-      body.removeClass("fix-menu");
-      body.removeClass("fixed-on");
-		}
-    return false;
-	});
 
   jQuery('.footer-scroll-to-top, .footer-scroll-to-top-link').click(function(){
 		jQuery('html, body').animate({scrollTop : 0},400);
