@@ -595,21 +595,22 @@ blockquote p {
   font-weight: 700
 }
 blockquote:before {
-  font-size: 18px !important;
+  font-size: 22px !important;
   font-family: "madza";
   content: "\e907";
   position: absolute;
   left: 50%;
-  margin-left: -9px;
+  margin-left: -11px;
   top: -30px;
 }
 blockquote:after {
-  font-size: 18px !important;
+  font-size: 22px !important;
   font-family: "madza";
   content: "\e906";
   position: absolute;
-  right: -20px;
-  bottom: 20px;
+  left: 50%;
+  margin-left: -11px;
+  bottom: -30px;
 }
 .sticky {}
 .entry-content blockquote {
