@@ -5442,3 +5442,4 @@ li.mtc-buy {
 .normal-small .mt-stars div {
   padding-bottom: 0px;
 }
+.mt-star-not:before { color: #d6d6d6 !important; }
