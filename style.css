@@ -3153,6 +3153,9 @@ opacity: 0.7
 .mt-video-frame {
   padding-top: 40px;
 }
+.post-style-5 .mt-video-frame{
+  padding-top: 0px;
+}
 .single-share {
   position: relative;
   display: inline-block;
