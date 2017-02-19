@@ -1713,6 +1713,9 @@ h2.heading span {
 .poster.normal {
   margin-bottom: 20px;
 }
+.poster:hover {
+  background: #f0f0f0;
+}
 .lazy-hidden {
     opacity: 0;
 }
