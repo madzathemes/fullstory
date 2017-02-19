@@ -2610,7 +2610,7 @@ opacity: 0.7
 }
 .poster-image span:before {
   color: white !important;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 .grid-post .layouts {
   position: absolute;;
