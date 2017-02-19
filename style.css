@@ -126,7 +126,6 @@ h4,
   -o-transition: all 200ms ease-in-out!important;
   transition: all 200ms ease-in-out!important;
 }
-.video-icon:before,
 .nav-button,
 a,
 button,
@@ -146,7 +145,6 @@ input,
 .grid-post::before,
 .poster-image::after,
 .poster.normal-small,
-.video-icon, .post-icon,
 .poster-info {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
@@ -1941,55 +1939,13 @@ h2.heading span {
 .poster .poster-cat {
   display: inline
 }
-.post-icon {
-  display:none !important;
-}
-.post-icon,
-.video-icon {
-  bottom: 50%;
-  height: 50px;
-  width: 50px;
-  left: 50%;
-  margin-left: -25px;
-  margin-bottom: -25px;
-  position: absolute;
-  z-index: 99;
-}
-.video-icon:before {
-  content: "\ea1c";
-  font-family: "madza";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -16px;
-  margin-left: -17px;
-  font-size: 32px;
-  text-align: center;
-  vertical-align: middle;
-}
+
 .poster-image {}
 .poster .gallery-icon:before {
   content: "\e90d"!important;
   margin-left: -7px!important;
 }
-.normal .post-icon,
-.normal .video-icon {
-  position: absolute;
-  display: block;
-  background: rgba(0, 0, 0, 0.5) !important
-}
-.normal .video-icon:before {
-  content: "\ea1c";
-  font-family: "madza";
-  position: absolute;;
-  top: 50%;
-  left: 50%;
-  margin-top: -7px;
-  margin-left: -5px;
-  font-size: 14px;
-  text-align: center;
-  vertical-align: middle;
-}
+
 .zoom-on .poster.normal .poster-image .mt-post-image {
   -webkit-transform: scale(1.0);
   -ms-transform: scale(1.0);
