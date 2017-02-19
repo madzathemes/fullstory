@@ -617,7 +617,7 @@ blockquote_:after {
 .entry-content blockquote {
     font-size: 21px !important;
     font-weight: 800;
-    margin: 40px 120px 20px;
+    margin: 40px 40px 20px;
     text-align: center;
 }
 .entry-content ul,
