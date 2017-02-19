@@ -600,7 +600,7 @@ blockquote:before {
   content: "\e907";
   position: absolute;
   left: -34px;
-  top: 7px;
+  top: 0px;
 }
 blockquote:after {
   font-size: 18px !important;
@@ -608,13 +608,14 @@ blockquote:after {
   content: "\e906";
   position: absolute;
   right: -30px;
-  bottom: 25px;
+  bottom: 20px;
 }
 .sticky {}
 .entry-content blockquote {
     font-size: 21px !important;
     font-weight: 800;
     margin: 10px 120px;
+    text-align: center;
 }
 .entry-content ul,
 .entry-content ol{
