@@ -2728,6 +2728,7 @@ opacity: 0.7
 }
 .post-style-4 .single-media-top img {
   padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 .single-media-title {
   position: absolute;
