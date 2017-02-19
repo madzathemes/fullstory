@@ -5130,6 +5130,7 @@ li.mtc-buy {
   background: #ecedf1;
   color: #a4a5a9;
   vertical-align: middle;
+  cursor: pointer;
 }
 .mt-load-more:hover {
   color: #fff;
