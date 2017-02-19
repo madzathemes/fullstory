@@ -3151,7 +3151,7 @@ opacity: 0.7
   font-weight: 900
 }
 .stat-comments:before {
-    content: "\6b";
+    content: "\e90c";
     font-family: "madza";
     position: absolute;
     margin-top: 4px;
