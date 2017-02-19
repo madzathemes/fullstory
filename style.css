@@ -587,12 +587,13 @@ iframe {
 blockquote {
   font-size: 21px !important;
   font-weight: 800;
-  margin: 20px 100px;
+  margin: 20px 60px 0px;
   position: relative;
 }
 blockquote p {
   font-size: 21px !important;
-  font-weight: 700
+  font-weight: 700;
+  line-height: 1.6;
 }
 blockquote:before {
   font-size: 22px !important;
@@ -603,20 +604,20 @@ blockquote:before {
   margin-left: -11px;
   top: -30px;
 }
-blockquote:after {
+blockquote_:after {
   font-size: 22px !important;
   font-family: "madza";
   content: "\e906";
   position: absolute;
   left: 50%;
   margin-left: -11px;
-  bottom: 0px;
+  bottom: -10px;
 }
 .sticky {}
 .entry-content blockquote {
     font-size: 21px !important;
     font-weight: 800;
-    margin: 40px 120px;
+    margin: 40px 120px 20px;
     text-align: center;
 }
 .entry-content ul,
@@ -3299,7 +3300,7 @@ opacity: 0.7
 }
 .single .post-img {
   padding-right: 45px;
-  padding-top: 40px;
+  padding-top: 0px;
 }
 .form-submit {
   padding: 5px 0px 0px;
