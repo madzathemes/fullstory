@@ -1773,8 +1773,7 @@ h2.heading span {
 .poster-content-wrap strong,
 .poster-content small,
 .poster-content strong {
-  text-transform: uppercase;
-  font-weight: 900!important;
+  font-weight: 700!important;
   font-size: 11px;
   color: #222;
 }
