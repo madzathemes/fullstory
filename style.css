@@ -3141,7 +3141,7 @@ opacity: 0.7
   font-weight: 900
 }
 .stat-views:before {
-  content: "\e9a9";
+  content: "\e9ce";
   font-family: "madza";
   position: absolute;
   margin-top: 1px;
