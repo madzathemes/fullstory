@@ -2689,6 +2689,9 @@ opacity: 0.7
   height: 370px;
   margin-top: 10px;
 }
+.post-style-6 .after-title {
+  padding-top: 0px;
+}
 .post-style-7 .single-media,
 .post-style-7 .single-media-wrap {
   height: 600px;
