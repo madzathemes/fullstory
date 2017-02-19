@@ -144,7 +144,8 @@ input,
 .nav-search-input,
 .nav-search-wrap,
 .grid-post::before,
-.poster-image::after {
+.poster-image::after,
+.poster.normal-small {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
@@ -1713,7 +1714,7 @@ h2.heading span {
 .poster.normal {
   margin-bottom: 20px;
 }
-.poster.normal:hover {
+.poster.normal-small:hover {
   background: #f0f0f0;
 }
 .lazy-hidden {
