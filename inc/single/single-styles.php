@@ -136,7 +136,6 @@
       	      <?php fullstory_single_title(); ?>
       			</div>
       			<div class="col-md-12">
-      			  <?php fullstory_single_social(); ?>
       			</div>
       		</div>
         </div>
@@ -147,6 +146,8 @@
   <div class="container">
     <div class="row">
       <div class="single-content col-md-8 <?php echo sanitize_html_class($fl); ?>">
+
+          <?php fullstory_single_social(); ?>
 
         <div class="entry-content" itemprop="mainContentOfPage"><?php the_content(); ?></div>
         <?php fullstory_single_bottom(); ?>
@@ -174,7 +175,6 @@
         		      <?php fullstory_single_title(); ?>
         				</div>
         				<div class="col-md-12">
-        				  <?php fullstory_single_social(); ?>
         				</div>
               </div>
             </div>
@@ -188,6 +188,7 @@
     <div class="container">
       <div class="row">
         <div class="single-content col-md-8 <?php echo sanitize_html_class($fl); ?>">
+          <?php fullstory_single_social(); ?>
           <div class="entry-content" itemprop="mainContentOfPage"><?php the_content(); ?></div>
           <?php fullstory_single_bottom(); ?>
         </div>
@@ -210,7 +211,6 @@
   		      <?php fullstory_single_title(); ?>
   				</div>
   				<div class="col-md-12">
-  				  <?php fullstory_single_social(); ?>
   				</div>
   			</div>
   		</div>
@@ -219,7 +219,7 @@
   <div class="container">
     <div class="row">
       <div class="single-content col-md-8 <?php echo sanitize_html_class($fl); ?>">
-
+        <?php fullstory_single_social(); ?>
         <div class="entry-content" itemprop="mainContentOfPage"><?php the_content(); ?></div>
         <?php fullstory_single_bottom(); ?>
       </div>
