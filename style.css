@@ -1714,12 +1714,6 @@ h2.heading span {
 .poster.normal {
   margin-bottom: 20px;
 }
-.poster.normal-small:hover {
-  background: #f0f0f0;
-}
-.poster.normal-small h2:hover {
-  background: white !important;
-}
 .lazy-hidden {
     opacity: 0;
 }
