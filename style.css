@@ -610,7 +610,7 @@ blockquote:after {
   position: absolute;
   left: 50%;
   margin-left: -11px;
-  bottom: -30px;
+  bottom: 0px;
 }
 .sticky {}
 .entry-content blockquote {
