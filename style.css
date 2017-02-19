@@ -2739,6 +2739,7 @@ opacity: 0.7
   color: white;
   font-size: 11px;
   background: rgb(27, 27, 27);
+  border: 0px solid silver!important;
 }
 .single-media-title .color-silver-light,
 .single-media-title .author-info a {
