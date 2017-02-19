@@ -42,15 +42,7 @@ function hasScrolled() {
 jQuery(document).ready(function() {
   'use strict';
 
-  var elem = jQuery(".single-content .entry-content > p:first-child").contents().filter(function () { return this.nodeType == 3 }).first(),
-       text = elem.text().trim(),
-       first = text.slice(0, 1);
 
-   if (!elem.length)
-       return;
-
-   elem[0].nodeValue = text.slice(first.length);
-   elem.before('<span class="mt-first-letter">' + first + '</span>');
 
   var head = (jQuery('.header-wrap').outerHeight());
   jQuery('.header-wrap-space').css({
@@ -174,6 +166,16 @@ jQuery(document).ready(function() {
     function kFormatter(num) {
       return num > 999 ? (num/1000).toFixed(1) + 'k' : num;
     }
+
+    var elem = jQuery(".single-content .entry-content > p:first-child").contents().filter(function () { return this.nodeType == 3 }).first(),
+         text = elem.text().trim(),
+         first = text.slice(0, 1);
+
+     if (!elem.length)
+         return;
+
+     elem[0].nodeValue = text.slice(first.length);
+     elem.before('<span class="mt-first-letter">' + first + '</span>');
 
 });
 
