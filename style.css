@@ -5438,3 +5438,6 @@ li.mtc-buy {
   font-size: 14px;
   color: #ffc107;
 }
+.normal-small .mt-stars div {
+  padding-bottom: 0px;
+}
