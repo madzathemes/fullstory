@@ -599,7 +599,7 @@ blockquote:before {
   font-family: "madza";
   content: "\e907";
   position: absolute;
-  left: -34px;
+  left: -24px;
   top: 0px;
 }
 blockquote:after {
@@ -607,7 +607,7 @@ blockquote:after {
   font-family: "madza";
   content: "\e906";
   position: absolute;
-  right: -30px;
+  right: -20px;
   bottom: 20px;
 }
 .sticky {}
