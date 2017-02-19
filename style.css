@@ -2988,7 +2988,7 @@ opacity: 0.7
   -moz-border-radius: 35px;
   border-radius: 35px;
   display:inline-block;
-  margin-top: 4px;
+  margin-top: 3px;
 }
 .entry-meta .author-avatar img {
   -webkit-border-radius: 35px;
@@ -3103,7 +3103,7 @@ opacity: 0.7
   font-size: 13px;
   margin-top: 8px;
   display: inline-block;
-  padding: 0px 15px 0px 10px;
+  padding: 0px 15px 0px 5px;
 }
 .single .author-info small {
   font-size: 13px;
