@@ -601,7 +601,7 @@ blockquote:before {
   position: absolute;
   left: 50%;
   margin-left: -9px;
-  top: -20px;
+  top: -30px;
 }
 blockquote:after {
   font-size: 18px !important;
@@ -615,7 +615,7 @@ blockquote:after {
 .entry-content blockquote {
     font-size: 21px !important;
     font-weight: 800;
-    margin: 30px 120px;
+    margin: 40px 120px;
     text-align: center;
 }
 .entry-content ul,
