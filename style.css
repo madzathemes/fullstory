@@ -2085,10 +2085,10 @@ h2.heading span {
 .poster.normal .poster-image {
   margin-right: 30px;
 }
-.poster:hover h2,
-.poster-small:hover h4,
-.poster-small-bottom:hover h4{
-  color: #ff0036;
+.poster h2:hover,
+.poster-small h4:hover,
+.poster-small-bottom h4:hover{
+  background: #f0f0f0;
 }
 .poster-content a,
 .poster-content-wrap a {
