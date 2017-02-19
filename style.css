@@ -2712,7 +2712,7 @@ opacity: 0.7
 .post-style-7 .post-statistic span:before,
 .post-style-8 .post-statistic span,
 .post-style-8 .post-statistic span:before,{
-  color: white;
+  color: white!important;
 }
 .single-media-wrap {
   position:absolute;
