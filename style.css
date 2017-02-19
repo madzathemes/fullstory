@@ -5109,6 +5109,10 @@ li.mtc-buy {
   color: white;
   font-weight: 700;
 }
+.mt-readmore-url:hover {
+  background: #ebedf3;
+  color: black;
+}
 
 .mt-tab .poster-content a,
 .mt-tab .poster-content-wrap a {
