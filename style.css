@@ -2599,18 +2599,22 @@ opacity: 0.7
   -moz-background-clip:    padding;
   background-clip:         padding-box;
 }
-.poster-image::before {
-  content: "";
-  background: #ecedf1;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-}
-.poster-image span:before {
+.poster-image:before {
   color: white !important;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  content: "\ea1c";
+  font-family: "madza";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -14px;
+  font-size: 31px;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 999;
+  background: none;
+
 }
 .grid-post .layouts {
   position: absolute;;
