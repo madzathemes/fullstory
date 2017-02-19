@@ -2988,7 +2988,7 @@ opacity: 0.7
   -moz-border-radius: 35px;
   border-radius: 35px;
   display:inline-block;
-  margin-top: 8px;
+  margin-top: 2px;
 }
 .entry-meta .author-avatar img {
   -webkit-border-radius: 35px;
@@ -2999,8 +2999,8 @@ opacity: 0.7
   float: left;
 }
 .author-info {
-  margin-left: 40px;
-  padding-right: 40px;
+  margin-left: 30px;
+  padding-right: 20px;
 }
 .author-description h2 {
   font-size: 24px!important;
@@ -3101,41 +3101,47 @@ opacity: 0.7
 }
 .single .author-info strong {
   font-size: 13px;
-  margin-top: 6px;
-  display: block;
+  margin-top: 8px;
+  display: inline-block;
+  padding: 0px 15px 0px 10px;
+}
+.single .author-info small {
+  font-size: 13px;
+  font-weight: 700;
+  color: #afafaf;
 }
 .stat-shares {
-  padding: 8px 20px 10px 20px;
-  font-size: 21px;
+  padding: 8px 20px 10px 15px;
+  font-size: 13px;
   display: inline-block;
   color: #afafaf;
-  font-weight: 900
+  font-weight: 700
 }
 .stat-shares:before {
   content: "\67";
   font-family: "madza";
   position: absolute;
-  margin-top: 5px;
-  font-size: 18px;
-  margin-left: -25px;
+  margin-top: 3px;
+  font-size: 11px;
+  margin-left: -15px;
   font-weight: normal;
   color: #afafaf;
 }
 .stat-views {
-  padding: 8px 10px 10px 20px;
-  font-size: 21px;
+  padding: 8px 10px 10px 10px;
+  font-size: 13px;
   display: inline-block;
   color: #afafaf;
-  font-weight: 900
+  font-weight: 700
 }
 .stat-views:before {
   content: "\e9ce";
   font-family: "madza";
   position: absolute;
-  margin-top: 4px;
-  font-size: 18px;
+  margin-top: 3px;
+  font-size: 11px;
   font-weight: normal;
-  margin-left: -22px;
+  margin-left: -14px;
   color: #afafaf;
 }
 .single-stat-comments {
@@ -3144,20 +3150,20 @@ opacity: 0.7
   right: 0px;
 }
 .stat-comments {
-  padding: 8px 10px 10px 30px;
-  font-size: 21px;
+  padding: 8px 10px 10px 20px;
+  font-size: 13px;
   display: inline-block;
   color: #afafaf;
-  font-weight: 900
+  font-weight: 700
 }
 .stat-comments:before {
     content: "\e90c";
     font-family: "madza";
     position: absolute;
-    margin-top: 4px;
-    font-size: 18px;
-    font-weight: normal;
-    margin-left: -22px;
+    margin-top: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -14px;
     color: #afafaf;
 }
 .mt-video-frame {
