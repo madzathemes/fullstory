@@ -5421,3 +5421,20 @@ li.mtc-buy {
   top:-2px;
   left:0px;
 }
+
+/* REVIEWS */
+.mt-stars {
+  display: block !important;
+  position: relative;
+}
+.mt-stars div {
+  display: inline-block;
+  width: 20px;
+  padding-bottom: 10px;
+}
+.mt-stars div:before {
+  font-family: "madza" !important;
+  content: "\e9d9";
+  font-size: 14px;
+  color: #ffc107;
+}
