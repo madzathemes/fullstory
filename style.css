@@ -5392,7 +5392,7 @@ li.mtc-buy {
 
 /* REVIEWS */
 .mt-stars {
-  display: block !important;
+  display: inline-block !important;
   position: relative;
 }
 .mt-stars div {
