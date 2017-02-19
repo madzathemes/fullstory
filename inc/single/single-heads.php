@@ -68,11 +68,9 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
     <div class="post-statistic pull-left">
       <?php if(!empty($shares)){ ?><span class="stat-shares"><?php echo esc_attr($shares); ?> <?php echo esc_html__('Shares', 'fullstory'); ?></span><?php } ?>
       <?php if(!empty($viewes)){ ?><span class="stat-views"><?php echo esc_attr($viewes); ?> <?php echo esc_html__('Views', 'fullstory'); ?></span><?php } ?>
-    </div>
-    <?php } ?>
-    <div class="single-stat-comments">
       <?php if (get_comments_number()!="0") { ?><span class="stat-comments"><?php echo get_comments_number(); ?> Comments</span><?php } ?>
     </div>
+    <?php } ?>
     <?php if($share_top=="" or $share_top == "yes"){ ?>
     <ul class="share top">
       <li class="share-facebook"><a class="mt-radius" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>" target="_blank"><span><?php echo esc_html__('Share on Facebook', 'fullstory'); ?></span></a></li>

@@ -3144,18 +3144,21 @@ opacity: 0.7
   right: 0px;
 }
 .stat-comments {
-  padding: 12px 0px 0px 23px;
-  font-size: 14px;
+  padding: 8px 10px 10px 20px;
+  font-size: 21px;
   display: inline-block;
-  display: none;
+  color: #afafaf;
+  font-weight: 900
 }
 .stat-comments:before {
     content: "\e904";
     font-family: "madza";
     position: absolute;
-    margin-top: 0px;
+    margin-top: 4px;
     font-size: 18px;
-    margin-left: -20px;
+    font-weight: normal;
+    margin-left: -22px;
+    color: #afafaf;
 }
 .mt-video-frame {
   padding-right: 45px;
