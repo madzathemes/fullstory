@@ -2047,6 +2047,10 @@ h2.heading span {
 .poster-small {
   margin-bottom: 20px;
 }
+.poster-small small {
+  font-size: 11px!important;
+  font-weight: 700;
+}
 .poster-small .poster-image {
   width: 100px;
   margin-right: 20px;
