@@ -73,6 +73,9 @@
 <?php $ls = get_post_meta(get_the_ID(), "magazin_post_sidebar", true); $fl = "pull-left"; $fs = "pull-right"; $o = get_option("fullstory_theme_options"); if(!empty($ls)){ $l = $ls; } else { if(!empty($o['post_sidebar'])){ $l = $o['post_sidebar']; } else { 	$l = "left"; } } if ($l == "left") { $fl = "pull-right"; $fs = "pull-left"; } ?>
 <div class="post-media-wrap">
   <div class="container">
+
+      <?php fullstory_single_cat(); ?>
+      <?php fullstory_single_title(); ?>
     <div class="single-media-top"><?php fullstory_single_media(); ?></div>
   </div>
 </div>
@@ -81,8 +84,6 @@
     <div class="row">
 
       <div class="single-content col-md-8 <?php echo sanitize_html_class($fl); ?>">
-        <?php fullstory_single_cat(); ?>
-        <?php fullstory_single_title(); ?>
         <?php fullstory_single_social(); ?>
         <div class="entry-content" itemprop="mainContentOfPage"><?php the_content(); ?></div>
         <?php fullstory_single_bottom(); ?>

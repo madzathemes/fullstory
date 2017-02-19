@@ -2691,7 +2691,8 @@ opacity: 0.7
 }
 .post-style-6 .after-title,
 .post-style-7 .after-title,
-.post-style-8 .after-title {
+.post-style-8 .after-title,
+.post-style-4 .after-title {
   padding-top: 0px;
 }
 .post-style-7 .single-media,
@@ -3305,8 +3306,8 @@ opacity: 0.7
   padding-right: 45px;
   padding-top: 40px;
 }
-.post-style-4 .single .post-img {
-  padding-top: 10px !important;
+.post-style-4.single .single-cat-wrap {
+  padding-top: 40px !important;
 }
 .form-submit {
   padding: 5px 0px 0px;
