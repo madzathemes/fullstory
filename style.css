@@ -2633,14 +2633,14 @@ opacity: 0.7
     color: #1b1c2a;
 }
 .mt-first-letter {
-  font-size: 78px;
+  font-size: 68px;
   border: 0px solid black;
   line-height: 1;
   padding: 0px 0px;
-  margin: 0px 15px 0px 0px;
+  margin: 0px 20px 0px 0px;
   display: inline;
   float: left;
-  font-weight: 700;
+  font-weight: 900;
 }
 .single-content .entry-content table {
   margin-bottom: 40px;
