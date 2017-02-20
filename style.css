@@ -3391,12 +3391,12 @@ opacity: 0.7
   font-weight: 700;
 }
 .comment-author .fn {
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 75px;
   padding-top: 5px;
   padding-bottom: 4px;
   display: block;
-  font-weight: 700;
+  font-weight: 900;
 }
 .comment-author .fn a {
   color: #222;
