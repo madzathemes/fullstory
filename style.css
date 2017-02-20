@@ -2743,7 +2743,8 @@ opacity: 0.7
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#b3000000', GradientType=0);
 }
 .comment-reply-title {
-  padding-left: 0px !important;
+  padding-top: 0px;
+  font-size: 21px;
 }
 .single-cat-wrap .post-categories {
   list-style: none;
@@ -3305,7 +3306,6 @@ opacity: 0.7
   padding: 20px 40px 20px;
 }
 .comment-respond {
-  margin-bottom: 40px;
   position: relative;
 }
 .comment-respond .logged-in-as {
@@ -3344,10 +3344,9 @@ opacity: 0.7
 .commentlist li {
 }
 .commentlist article.comment {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
   margin-right: 0px;
-  border-bottom: 2px solid #ecedf1;
 }
 .comment-edit-link {
   font-size: 12px;
@@ -3358,40 +3357,36 @@ opacity: 0.7
   list-style: none;
 }
 .comment-author .avatar {
-  width: 30px;
-  margin-top: -8px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  width: 60px;
+  margin-top: 0px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  float:left;
 }
 .comment-content {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 .comment-content p {
   margin-right: 20px;
   padding-top: 10px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.618em;
-  display: inline;
+  display: block;
   padding: 1px 0px;
 }
 .comment-reply-link {
-  right: 0px;
-  bottom: 0px;
-  background: #ecedf1;
-  padding: 5px 5px 3px 10px;
   color: #222;
   font-size: 12px;
   text-transform: uppercase;
-  position: absolute;
 }
 .comment-author .fn {
   font-size: 16px;
   color: #222;
-  margin-left: 10px;
-  margin-top: 25px;
-  margin-right: 10px;
-  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  display: block;
   font-weight: 700;
 }
 .comment-author .fn a {
@@ -3400,6 +3395,21 @@ opacity: 0.7
 .mt_comment_date {
   font-size: 13px;
   color: #949494;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  display: block;
+}
+.mt-comment-area {
+  background: #f7f7f7;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+.mt-comment-area input[type="text"],
+.mt-comment-area textarea {
+  background: white;
+}
+.mt-comment-head {
+  font-size: 21px;
 }
 .post_sticky {
   padding: 20px 40px 40px;

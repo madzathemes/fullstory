@@ -4,7 +4,7 @@
  * @copyright 2017
  */
 ?>
-
+<div class="mt-comment-area">
 <?php if ( post_password_required() ): ?>
      <p class="nopassword"><?php esc_html_e( 'This post is password protected. Enter the password to view and post comments.' , 'fullstory' ); ?></p>
 
@@ -16,10 +16,10 @@
 <?php if ( have_comments() ) : ?>
 <div id="coment-line-space"><!--<span class="line"></span><div class="clear"></div>--></div>
 
-			<h2 class="heading-left padding-0"><span><?php
-			printf( _n( 'One Response', '%1$s Responses', get_comments_number(), 'fullstory' ),
+			<h4 class="heading-left padding-0 mt-comment-head"><span><?php
+			printf( _n( 'One Comment', '%1$s Comments', get_comments_number(), 'fullstory' ),
 			number_format_i18n( get_comments_number() ), '' . get_the_title() . '' );
-			?></span></h2>
+			?></span></h4>
 
 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through?
 
@@ -124,5 +124,6 @@ $fields =  array(
 
 <?php
  comment_form($defaults); ?>
+</div>
 
 <!-- #comments -->
