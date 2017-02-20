@@ -3407,8 +3407,8 @@ opacity: 0.7
   display: block;
 }
 .mt-comment-area {
-  background: #f7f7f7;
-  padding: 60px;
+  background: #f6f6f6;
+  padding: 40px;
   margin-bottom: 40px;
 }
 .mt-comment-area input[type="text"],
