@@ -3307,6 +3307,8 @@ opacity: 0.7
 }
 .comment-respond {
   position: relative;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 20px;
 }
 .comment-respond .logged-in-as {
   margin-top: -15px;
@@ -3341,10 +3343,15 @@ opacity: 0.7
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
-.commentlist li {
+.commentlist > li:first-child article {
+  border-width: 0px !important;
+}
+.commentlist article, .commentlist .pingback, .commentlist .trackback {
+    border-top: 1px solid #e6e6e6;
+    padding: 20px 0px;
 }
 .commentlist article.comment {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   position: relative;
   margin-right: 0px;
 }
@@ -3379,12 +3386,12 @@ opacity: 0.7
   color: #222;
   font-size: 12px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .comment-author .fn {
   font-size: 16px;
-  color: #222;
   margin-left: 70px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 2px;
   display: block;
   font-weight: 700;
@@ -3394,9 +3401,8 @@ opacity: 0.7
 }
 .mt_comment_date {
   font-size: 13px;
-  color: #949494;
   margin-left: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: block;
 }
 .mt-comment-area {
