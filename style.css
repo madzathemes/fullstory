@@ -610,7 +610,7 @@ blockquote:after {
   position: absolute;
   right: 0px;
   margin-left: -11px;
-  bottom: 0px;
+  bottom: -10px;
 }
 .sticky {}
 .entry-content ul,
@@ -2796,7 +2796,7 @@ opacity: 0.7
   margin-top: 40px;
 }
 .single p {
-  font-size: 17px;
+  font-size: 16px;
 }
 .share {
   margin: 0px 0px 40px;
@@ -2991,8 +2991,7 @@ opacity: 0.7
   -moz-border-radius: 35px;
   border-radius: 35px;
   display:inline-block;
-  margin: 18px 10px 0px 0px;
-  float: left;
+  margin: 0px 0px 20px 0px;
 }
 .author-info {
   margin-left: 30px;
@@ -3003,7 +3002,7 @@ opacity: 0.7
 }
 /* Author BIO CHANGES */
 .mt-bio-social {
-  padding: 3px 0px 20px 50px;
+  padding: 0px 0px 0px 0px;
 }
 .mt-bio-social a {
   padding: 0px 3px 0px 0px;
@@ -3011,7 +3010,7 @@ opacity: 0.7
 }
 .mt-bio-social a:before,
 .mt-author-soc a:before {
-  font-size: 14px;
+  font-size: 17px;
   font-family: "madza" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -3056,11 +3055,11 @@ opacity: 0.7
 }
 
 .author-description h3 {
-  padding: 3px 0px 0px !important;
-  font-size: 18px
+  padding: 0px 0px 15px !important;
+  font-size: 16px
 }
 .author-description h5 {
-  padding: 18px 0px 0px 50px;
+  padding: 18px 0px 10px 0px;
   font-size: 12px;
   color: #111;
   font-weight: 400;
@@ -3069,27 +3068,24 @@ opacity: 0.7
   font-weight: bold;
 }
 .single .author-info p {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-size: 17px;
 }
 .entry-meta .author-info {
-  background: inherit !important;
-  border: 1px dashed rgb(202, 202, 202) !important;
+  border-top: 1px solid rgb(220, 220, 220) !important;
+  border-bottom: 1px solid rgb(220, 220, 220) !important;
+  text-align: center;
+  padding: 40px 0px 40px;
+  margin-bottom: 40px;
+  margin-left: 0px;
 }
 .single-media-title .mt-author-soc a:before   {
   color: white;
 }
 /*END AUTHOR BIO CHANGES */
 
-.entry-meta .author-info {
-  padding: 20px 40px 40px;
-  background: #f5f5f5;
-  margin-bottom: 40px;
-  margin-left: 0px;
-}
-
 .single .author-info p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .single .author-info a {
   font-size: 12px;
