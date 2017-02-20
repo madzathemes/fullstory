@@ -3307,9 +3307,9 @@ opacity: 0.7
 .comment-respond {
   position: relative;
 }
-.commentlist .comment-respond {
+.comment-respond {
   border-top: 1px solid #e6e6e6;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 .comment-respond .logged-in-as {
   margin-top: -15px;
@@ -3347,6 +3347,7 @@ opacity: 0.7
 .commentlist > li:first-child article {
   border-width: 0px !important;
 }
+
 .commentlist article, .commentlist .pingback, .commentlist .trackback {
     border-top: 1px solid #e6e6e6;
     padding: 20px 0px;
@@ -3418,7 +3419,7 @@ opacity: 0.7
 }
 .mt-comment-area {
   background: #f6f6f6;
-  padding: 40px;
+  padding: 40px 40px 20px;
   margin-bottom: 40px;
 }
 .mt-comment-area input[type="text"],
