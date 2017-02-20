@@ -8,9 +8,9 @@
   $category_name = get_the_category(get_the_ID()); $cat =""; if(!empty($category_name[0])) { $cat =''.$category_name[0]->slug.''; } if ( shortcode_exists( 'posts' ) ) { echo do_shortcode('[posts item_nr=5  category="'.$cat.'" type=small-bottom ]'); }
 
 } ?>
-<?php function fullstory_single_title() {?>
+<?php function fullstory_single_title() { $subtitle = get_post_meta(get_the_ID(), "magazin_subtitle", true); ?>
   <h1 class="single-title" itemprop="headline"><?php echo get_the_title(); ?></h1>
-  <h2 class="single-subtitle" itemprop="description"><?php echo get_post_meta(get_the_ID(), "magazin_subtitle", true); ?></h2>
+  <?php if(!empty($subtitle)){ ?><h2 class="single-subtitle" itemprop="description"><?php echo $subtitle; ?></h2><?php } ?>
 <?php } ?>
 <?php function fullstory_single_social() {
 $share_top = "";

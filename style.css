@@ -3431,6 +3431,18 @@ opacity: 0.7
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+#cancel-comment-reply-link:before {
+  font-family: "madza" !important;
+  content: "\e900"!important;
+  display: inline-block;
+  position: absolute;
+  font-size: 21px;
+  padding: 20px;
+  font-weight: 400;
+  top: 0px;
+  right: -20px;
+  cursor: pointer;
+}
 .post_sticky {
   padding: 20px 40px 40px;
   background: #f1f1f1;

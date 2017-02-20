@@ -116,7 +116,7 @@ $fields =  array(
 	'id_submit'            => 'submit',
 	'title_reply'          => esc_html__( 'Leave a Comment', 'fullstory' ),
 	'title_reply_to'       => esc_html__( 'Leave a Reply to %s', 'fullstory' ),
-	'cancel_reply_link'    => esc_html__( 'Cancel reply', 'fullstory' ),
+	'cancel_reply_link'    => esc_html__( ' ', 'fullstory' ),
 	'label_submit'         => esc_html__( 'Submit Comment', 'fullstory' ),
 	'fields'               => apply_filters( 'comment_form_default_fields', $fields ),
 );
