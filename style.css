@@ -585,39 +585,34 @@ iframe {
 blockquote {
   font-size: 21px !important;
   font-weight: 800;
-  margin: 20px 60px 0px;
+  margin: 40px 120px 40px;
+  text-align: center;
   position: relative;
 }
 blockquote p {
-  font-size: 21px !important;
+  font-size: 18px !important;
   font-weight: 700;
   line-height: 1.6;
 }
 blockquote:before {
-  font-size: 22px !important;
+  font-size: 16px !important;
   font-family: "madza";
   content: "\e907";
   position: absolute;
-  left: 50%;
+  left: 0px;
   margin-left: -11px;
   top: -30px;
 }
-blockquote_:after {
-  font-size: 22px !important;
+blockquote:after {
+  font-size: 16px !important;
   font-family: "madza";
   content: "\e906";
   position: absolute;
-  left: 50%;
+  right: 0px;
   margin-left: -11px;
-  bottom: -10px;
+  bottom: 0px;
 }
 .sticky {}
-.entry-content blockquote {
-    font-size: 21px !important;
-    font-weight: 800;
-    margin: 40px 40px 20px;
-    text-align: center;
-}
 .entry-content ul,
 .entry-content ol{
   margin: 0px 0px 20px 20px;
