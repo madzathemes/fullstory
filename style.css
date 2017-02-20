@@ -3300,15 +3300,16 @@ opacity: 0.7
 }
 .form-submit {
   padding: 5px 0px 0px;
-  text-align: right;
 }
 .comment-responses {
   padding: 20px 40px 20px;
 }
 .comment-respond {
   position: relative;
+}
+.commentlist .comment-respond {
   border-top: 1px solid #e6e6e6;
-  padding-top: 20px;
+  padding: 30px 0px;
 }
 .comment-respond .logged-in-as {
   margin-top: -15px;
