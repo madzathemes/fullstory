@@ -3427,7 +3427,9 @@ opacity: 0.7
   background: white;
 }
 .mt-comment-head {
-  font-size: 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .post_sticky {
   padding: 20px 40px 40px;
