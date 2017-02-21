@@ -4105,7 +4105,7 @@ opacity: 0.7
 }
 
 @media all and (max-width: 645px) {
-  .mt-slide-1-title.nr-1 { width: 90%!important }
+  .mt-slide-1-title.nr-1 { }
   .mt-slide-1-title.nr-2,
   .mt-slide-1-title.nr-3,
   .mt-slide-1-title.nr-4 { display: none }
@@ -4547,6 +4547,7 @@ ul.page-numbers li {
 .mt-outer-wrap {
     overflow: auto;
     margin: auto;
+    overflow: hidden;
     width: 100%;
     -webkit-transition: transform .7s ease!important;
     -moz-transition: transform .7s ease!important;
@@ -5178,6 +5179,7 @@ li.mtc-buy {
   background: black;
   color: white;
   font-weight: 700;
+  margin-bottom: 0px !important;
 }
 .mt-readmore-url:hover {
   background: #ebedf3;
@@ -5362,7 +5364,6 @@ li.mtc-buy {
 }
 .mt-cool-slider {
   margin: 0 auto;
-  width: 1300px;
 }
 .mt-cool-slider .mt-slide-1-img-left .mt-slide-wrap,
 .mt-cool-slider .mt-slide-1-img-right .mt-slide-wrap {
@@ -5396,7 +5397,10 @@ li.mtc-buy {
   -webkit-transform: translateZ(0);
   overflow: hidden;
 }
-.mt-slide-1-img {
+.mt-cool-slider-carousel {
+  overflow: hidden;
+}
+.mt-cool-slider .mt-slide-1-img {
   display: none
 }
 .mt-slide-1-img-left.show,
@@ -5436,6 +5440,7 @@ li.mtc-buy {
   position: absolute;
   z-index: -2;
 }
+
 .mt-post-image-background {
   height: 370px;
 }
