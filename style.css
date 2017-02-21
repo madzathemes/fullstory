@@ -145,7 +145,9 @@ input,
 .grid-post::before,
 .poster-image::after,
 .poster.normal-small,
-.poster-info {
+.poster-info,
+.share li.share-more:hover a .pinterest,
+.share li.share-more:hover a .google {
   -webkit-transition: all 100ms ease-out!important;
   -moz-transition: all 100ms ease-out!important;
   -ms-transition: all 100ms ease-out!important;
@@ -2896,7 +2898,11 @@ opacity: 0.7
 .share li.share-more a .pinterest,
 .share li.share-more a .google {
   padding: 8px 0px 0px;
-  display: none;
+  opacity: 0;
+}
+.share li.share-more:hover a .pinterest,
+.share li.share-more:hover a .google {
+  opacity: 1;
 }
 .share li.share-more a .share-more-icon,
 .share-more-wrap .share-more-icon{
