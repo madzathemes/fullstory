@@ -590,27 +590,27 @@ blockquote {
   position: relative;
 }
 blockquote p {
-  font-size: 18px !important;
-  font-weight: 700;
-  line-height: 1.6;
+  font-size: 21px !important;
+  font-weight: 900;
+  line-height: 1.4;
 }
 blockquote:before {
   font-size: 16px !important;
   font-family: "madza";
-  content: "\e907";
+  content: "\e90f";
   position: absolute;
   left: 0px;
   margin-left: -11px;
-  top: -30px;
+  top: -20px;
 }
 blockquote:after {
   font-size: 16px !important;
   font-family: "madza";
-  content: "\e906";
+  content: "\e910";
   position: absolute;
   right: 0px;
   margin-left: -11px;
-  bottom: -10px;
+  bottom: 0px;
 }
 .sticky {}
 .entry-content ul,
@@ -3436,7 +3436,7 @@ opacity: 0.7
   content: "\e900"!important;
   display: inline-block;
   position: absolute;
-  font-size: 21px;
+  font-size: 16px;
   padding: 20px;
   font-weight: 400;
   top: 0px;
