@@ -206,9 +206,10 @@
 <?php function post_style_8(){  ?>
 <?php $ls = get_post_meta(get_the_ID(), "magazin_post_sidebar", true); $fl = "pull-left"; $fs = "pull-right"; $o = get_option("fullstory_theme_options"); if(!empty($ls)){ $l = $ls; } else { if(!empty($o['post_sidebar'])){ $l = $o['post_sidebar']; } else { 	$l = "left"; } } if ($l == "left") { $fl = "pull-right"; $fs = "pull-left"; } ?>
 	<?php  if ( has_post_thumbnail() ) { ?>
-    <div class="post-media-wrap">
-      <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
+    <div class="post-media-wrap"></div>
         <div class="single-media-top single-image-gradient">
+          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
+          
     			<div class="single-media-title">
     				<div class="col-md-10">
     					<?php fullstory_single_cat(); ?>
@@ -218,7 +219,6 @@
     				</div>
     			</div>
     		</div>
-      </div>
 	<?php } ?>
 <div class="post-content-wrap mt-content-container">
   <div class="container">
