@@ -3321,6 +3321,10 @@ opacity: 0.7
   bottom: 13px;
   opacity: 0.66
 }
+.post-style-8 .mt-img-copyright {
+  bottom: -15px;
+  opacity: 0.66
+}
 .post-style-4.single .single-cat-wrap {
   padding-top: 40px !important;
 }
