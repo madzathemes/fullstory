@@ -5279,6 +5279,7 @@ li.mtc-buy {
   height: 370px;
   overflow: inherit;
   position: relative;
+  background: #f5f5f5;
 }
 .mt-slide-1-img .mt-slide-wrap {
   height: 370px;
@@ -5380,9 +5381,11 @@ li.mtc-buy {
 }
 .mt-cool-slider .mt-slide-1-img-left {
   left: -120px;
+  display: none
 }
 .mt-cool-slider .mt-slide-1-img-right {
   right: -120px;
+  display: none
 }
 .mt-cool-slider-carousel,
 .mt-cool-slider-text {
@@ -5392,6 +5395,14 @@ li.mtc-buy {
   z-index: 3;
   -webkit-transform: translateZ(0);
   overflow: hidden;
+}
+.mt-slide-1-img {
+  display: none
+}
+.mt-slide-1-img-left.show,
+.mt-slide-1-img-right.show,
+.mt-slide-1-img.show {
+  display: block
 }
 .mt-cool-slider-text {
   z-index: 9999
@@ -5424,7 +5435,6 @@ li.mtc-buy {
   height: 100%;
   position: absolute;
   z-index: -2;
-  overflow: hidden;
 }
 .mt-post-image-background {
   height: 370px;

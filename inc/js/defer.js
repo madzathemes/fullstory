@@ -42,7 +42,7 @@ function hasScrolled() {
 jQuery(document).ready(function() {
   'use strict';
 
-
+  jQuery('.mt-slide-1-img, .mt-slide-1-img-left, .mt-slide-1-img-right').addClass("show");
 
   var head = (jQuery('.header-wrap').outerHeight());
   jQuery('.header-wrap-space').css({
