@@ -41,7 +41,7 @@
 			<div class="post-img">
   				<div class="single-share">
             <a class="lightbox" href="<?php echo get_the_post_thumbnail_url(get_the_ID(),"large"); ?>">
-              <span class="mt-img-copyright">Image from unsplash.com</span>
+              <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
               <?php echo get_the_post_thumbnail(get_the_ID(),"fullstory_810", array( 'class' => 'mt-radius')); ?>
             </a>
             <div class="single-share-socials mt-radius-b">
