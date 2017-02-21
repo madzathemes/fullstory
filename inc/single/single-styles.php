@@ -179,9 +179,10 @@
         				</div>
               </div>
             </div>
-    			</div><?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
-        
+    			</div>
     		</div>
+        <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
+      
       </div>
     </div>
   </div>
