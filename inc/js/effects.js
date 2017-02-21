@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
      initialSlide: 2,
      lazyLoad: 'ondemand',
      autoplay: $autoplay,
-     autoplayTimeout:5000,
+     autoplayTimeout:6000,
      speed:1200,
      pauseOnFocus: false,
      pauseOnHover: false,
@@ -78,7 +78,6 @@ jQuery(document).ready(function() {
     pauseOnFocus: false,
     pauseOnHover: false,
     draggable: false,
-    fade: true,
   });
   jQuery('.mt-slide-1-img-right').slick({
     arrows: false,
@@ -88,12 +87,11 @@ jQuery(document).ready(function() {
     initialSlide: 3,
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
-    autoplayTimeout:7000,
+    autoplayTimeout:6000,
     speed:1200,
     pauseOnFocus: false,
     pauseOnHover: false,
     draggable: false,
-    fade: true,
   });
 
   jQuery('.mt-cool-slider-big-title').slick({
@@ -104,7 +102,7 @@ jQuery(document).ready(function() {
     initialSlide: 2,
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
-    autoplayTimeout:7000,
+    autoplayTimeout:6000,
     speed:1200,
     fade: true,
     pauseOnFocus: false,
@@ -119,7 +117,7 @@ jQuery(document).ready(function() {
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
     autoplayTimeout:1000,
-    speed:1800,
+    speed:1200,
     vertical: true,
     pauseOnFocus: false,
     pauseOnHover: false,
@@ -134,7 +132,7 @@ jQuery(document).ready(function() {
     initialSlide: 2,
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
-    autoplayTimeout:7000,
+    autoplayTimeout:6000,
     speed:1200,
     fade: true,
     pauseOnFocus: false,
