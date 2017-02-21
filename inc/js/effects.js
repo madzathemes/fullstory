@@ -78,6 +78,7 @@ jQuery(document).ready(function() {
     pauseOnFocus: false,
     pauseOnHover: false,
     draggable: false,
+    fade: true,
   });
   jQuery('.mt-slide-1-img-right').slick({
     arrows: false,
@@ -92,6 +93,7 @@ jQuery(document).ready(function() {
     pauseOnFocus: false,
     pauseOnHover: false,
     draggable: false,
+    fade: true,
   });
 
   jQuery('.mt-cool-slider-big-title').slick({
@@ -122,6 +124,7 @@ jQuery(document).ready(function() {
     pauseOnFocus: false,
     pauseOnHover: false,
     draggable: false,
+    fade: true,
   });
   jQuery('.mt-cool-slider-carousel-back').slick({
     arrows: false,
