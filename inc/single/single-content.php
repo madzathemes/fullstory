@@ -19,7 +19,7 @@ $share_bottom = get_post_meta(get_the_ID(), "magazin_post_share_bottom", true);
 	);
   wp_link_pages( $defaults ); ?>
 </div>
-  <div class="tags"><?php echo get_the_tag_list(); ?></div>
+  <div class="tags"><?php echo get_the_tag_list('#', '#'); ?></div>
   <?php if($share_bottom=="" or $share_bottom == "yes"){ ?>
   <ul class="share down">
     <li class="share-facebook"><a class="mt-radius" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>" target="_blank"><span><?php echo esc_html__('Share on Facebook', 'fullstory'); ?></span></a></li>
