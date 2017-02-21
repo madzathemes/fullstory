@@ -42,6 +42,8 @@ function hasScrolled() {
 jQuery(document).ready(function() {
   'use strict';
 
+  jQuery( '.single-content a[href$=".gif"], .single-content a[href$=".jpg"], .single-content a[href$=".png"]' ).addClass( 'lightbox' );
+
   jQuery('.mt-slide-1-img, .mt-slide-1-img-left, .mt-slide-1-img-right').addClass("show");
 
   var head = (jQuery('.header-wrap').outerHeight());
