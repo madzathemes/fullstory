@@ -4,7 +4,7 @@
  * @copyright 2017
  */
 ?>
-<div class="mt-comment-area">
+<?php if ( comments_open() ) { ?><div class="mt-comment-area"><?php } ?>
 <?php if ( post_password_required() ): ?>
      <p class="nopassword"><?php esc_html_e( 'This post is password protected. Enter the password to view and post comments.' , 'fullstory' ); ?></p>
 
@@ -124,6 +124,6 @@ $fields =  array(
 
 <?php
  comment_form($defaults); ?>
-</div>
+<?php if ( comments_open() ) { ?></div><?php } ?>
 
 <!-- #comments -->
