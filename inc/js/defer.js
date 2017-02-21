@@ -121,7 +121,6 @@ jQuery(document).ready(function() {
   var youtube = jQuery( ".mt-f-data>div" ).data( "youtube" );
   var token = jQuery( ".mt-f-data>div" ).data( "token" );
 
-
  jQuery.ajax({
     url: 'https://graph.facebook.com/'+facebook,
     dataType: 'json',
