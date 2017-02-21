@@ -3694,7 +3694,7 @@ opacity: 0.7
   .col-col-3 { width: 30% !important; }
   .poster.size-350.normal .poster-image {
       width: 360px;
-      height: 220px;
+      height: 240px;
   }
   .hide-max-1300 {
     display:none;
@@ -3819,7 +3819,7 @@ opacity: 0.7
   }
   .poster.size-350.normal .poster-image {
     width: 220px;
-    height: 220px;
+    height: 240px;
   }
 
 
