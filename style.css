@@ -597,16 +597,19 @@ blockquote p {
 blockquote:before {
   font-size: 16px !important;
   font-family: "madza";
-  content: "\e90f";
+  content: "\e90e";
   position: absolute;
   left: 0px;
   margin-left: -11px;
   top: -20px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 blockquote:after {
   font-size: 16px !important;
   font-family: "madza";
-  content: "\e910";
+  content: "\e90e";
   position: absolute;
   right: 0px;
   margin-left: -11px;
