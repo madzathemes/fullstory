@@ -131,7 +131,7 @@
       <div class="container">
       	<div class="single-media-top mt-radius single-image-gradient">
       		<div class="mt-post-image"><div class="mt-post-image-background" style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'magazin_5'); ?>');"></div><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'large'); ?>" width="550" height="550" /></div>
-          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
+          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
 
           <div class="single-media-title">
       			<div class="col-md-9">
@@ -169,7 +169,7 @@
       <div class="single-media">
         <div class="single-media-wrap">
           <div class="mt-post-image"><div class="mt-post-image-background" style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'magazin_5'); ?>');"></div><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" width="550" height="550" /></div>
-          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
+          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
         <div class="single-image-gradient">
     			<div class="single-media-title">
             <div class="container">
@@ -208,8 +208,8 @@
 	<?php  if ( has_post_thumbnail() ) { ?>
     <div class="post-media-wrap"></div>
         <div class="single-media-top single-image-gradient">
-          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo $copyright; ?></span><?php } ?>
-          
+          <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
+
     			<div class="single-media-title">
     				<div class="col-md-10">
     					<?php fullstory_single_cat(); ?>

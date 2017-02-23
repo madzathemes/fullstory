@@ -10,7 +10,7 @@
 } ?>
 <?php function fullstory_single_title() { $subtitle = get_post_meta(get_the_ID(), "magazin_subtitle", true); ?>
   <h1 class="single-title" itemprop="headline"><?php echo get_the_title(); ?></h1>
-  <?php if(!empty($subtitle)){ ?><h2 class="single-subtitle" itemprop="description"><?php echo $subtitle; ?></h2><?php } ?>
+  <?php if(!empty($subtitle)){ ?><h2 class="single-subtitle" itemprop="description"><?php echo esc_attr($subtitle); ?></h2><?php } ?>
 <?php } ?>
 <?php function fullstory_single_social() {
 $share_top = "";

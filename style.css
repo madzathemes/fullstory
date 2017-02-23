@@ -1496,7 +1496,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   font-size: 18px;
   color: black;
 }
-.active.search-on .search-close {
+.mt-header-container.search-on .search-close {
   opacity: 1;
   visibility: visible;
   cursor: pointer;
@@ -1535,10 +1535,11 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   display: inline-block;
 }
 .nav-search-wrap .nav-search-input {
-  width: 100%;
+  width: 113%;
   height: 100%;
   top: 0px;
-  background: yellow;
+  left: -20px;
+  background: #f5f5f5;
   z-index: 99;
 }
 .nav-search-wrap .nav-search-input form {
