@@ -1496,7 +1496,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   font-size: 18px;
   color: black;
 }
-.mt-header-container.search-on .search-close {
+.mt-header-container.active .search-close {
   opacity: 1;
   visibility: visible;
   cursor: pointer;
