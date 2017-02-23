@@ -47,14 +47,14 @@ function fullstory_customize_colors($wp_customize){
 Kirki::add_field( 'zoom', array(
  'type'        => 'radio-buttonset',
  'settings'    => 'zoom',
- 'label'       => esc_html__( 'Image Hover Zoom', 'boomnews' ),
+ 'label'       => esc_html__( 'Image Hover Zoom', 'fullstory' ),
  'section'     => 'general_style_settings',
  'default'     => 'on',
  'priority'    => 1,
  'option_type'           => 'option',
  'choices'     => array(
-   'on'   => esc_attr__( 'Zoom On', 'boomnews' ),
-   'off' => esc_attr__( 'Zoom Off', 'boomnews' )
+   'on'   => esc_attr__( 'Zoom On', 'fullstory' ),
+   'off' => esc_attr__( 'Zoom Off', 'fullstory' )
  ),
 ));
 

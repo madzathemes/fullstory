@@ -2476,9 +2476,12 @@ opacity: 0.7
   float:right;
 }
 .mt-coment-nav a {
-  background: #ecedf1;
+  background: #e6e6e6;
   padding: 7px 10px;
   display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .mt-comment-nav-top {
   padding: 20px 0px;
@@ -3467,6 +3470,7 @@ opacity: 0.7
   background: #f6f6f6;
   padding: 40px 40px 20px;
   margin-bottom: 40px;
+  clear: both;
 }
 .mt-comment-area input[type="text"],
 .mt-comment-area textarea {
