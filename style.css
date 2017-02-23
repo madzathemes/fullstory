@@ -1762,7 +1762,8 @@ h2.heading span {
 .poster-image:hover::after {
   opacity: 1;
 }
-.poster-image:hover .poster-cat span {
+.poster-image:hover .poster-cat span,
+.poster.large:hover .poster-large-cat span {
   background: #ff0036;
 }
 .poster.trending-normal .poster-image {
@@ -2058,6 +2059,7 @@ h2.heading span {
 }
 .poster.large {
   margin-bottom: 0px;
+  cursor: move;
 }
 .poster-carousel {
   overflow: hidden;
@@ -2072,7 +2074,7 @@ h2.heading span {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 .poster-large-content,
 .poster-large-content p,
@@ -2081,21 +2083,30 @@ h2.heading span {
   color: white !important;
 }
 .poster-large-content:hover h2 {
-  color: #222!important;
+  background: inherit !important;
 }
 .poster-large-content-in {
   padding: 0px 30px 30px 30px;
-  background: rgba(0, 0, 0, 0.27);
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.8)));
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+  background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+  background: -ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#b3000000', GradientType=0);
+  width: 100%;
+  text-align: center;
 }
 .poster-large-cat span {
   position: relative;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-  padding: 4px 5px;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 3px 6px;
+  background: rgba(0, 0, 0, 0.5);
 }
 .poster-large-content h2 {
-  font-size: 30px;
+  font-size: 28px;
   padding: 0px 0px 0px 0px;
   line-height: 1;
   display: inline;
@@ -2103,7 +2114,7 @@ h2.heading span {
 }
 .poster-large-content a {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .poster-large-content-in {
@@ -2257,6 +2268,7 @@ h2.heading span {
     z-index: 2;
     cursor: pointer;
     font-size: 12px;
+    display: none!important;
 }
 .poster-next:hover,
 .poster-prev:hover {
