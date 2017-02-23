@@ -43,20 +43,3 @@ if(!empty($style)){
 <div class="mt-outer-wrap">
 
 <?php fullstory_header(); ?>
-
-<?php if(is_front_page()) { ?>
-<div class="container">
-	<div class="row mt-head">
-		<div class="col-md-8 pull-left">
-			<span class="mt-head-title">Last Rumor:</span>
-			<span class="mt-head-aleft"></span>
-			<span class="mt-head-aright"></span>
-			<span class="mt-head-text">Music festival season is officially in full swing</span>
-		</div>
-		<div class="col-md-4 pull-right">
-			<span class="mt-head-date">06 Oct</span>
-			<span class="mt-head-clock">11:11:11</span>
-		</div>
-	</div>
-</div>
-<?php } ?>

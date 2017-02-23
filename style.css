@@ -1482,9 +1482,9 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 .search-close{
   position: absolute;
   top: 50%;
-  margin-top: -19px;
+  margin-top: -20px;
   padding: 10px;
-  right: 0px;
+  right: -10px;
   visibility: hidden;
   opacity: 0;
   z-index: 99999;
