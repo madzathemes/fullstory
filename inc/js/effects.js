@@ -4,20 +4,15 @@ jQuery(document).ready(function() {
   jQuery( ".top-nav .menu-item-has-children > a, .top-nav .page_item_has_children > a, .top-nav .df-is-megamenu > a" ).append( '<i class="mt-menu-cursor"></i>' );
 	jQuery(".mt-m-nav .sub-menu .menu-item-has-children .sf-with-ul, .mt-m-nav .sub-menu .page_item_has_children .sf-with-ul").append( '<i class=" mt_menu_chldren_cursor fa fa-angle-right"></i>' );
 
-
   jQuery(".post-gallery-wrap, .post-carousel, .video-container").show();
   jQuery(".background-image").addClass("visible");
 
   jQuery(".video-container").fitVids();
 
-
-
   jQuery(".mt-smart-menu .menu-item-has-children").append("<span></span>");
   jQuery('body').addClass("shadow-wrap");
 
 });
-
-
 
 
 /*! Theia Sticky Sidebar v1.4.0 */
@@ -50,6 +45,28 @@ jQuery(document).ready(function() {
 
 jQuery(document).ready(function() {
   'use strict';
+  
+  jQuery('.post-carousel').slick({
+       slidesToShow: 4,
+       rtl: $rtl,
+       variableWidth: true,
+       lazyLoad: 'ondemand',
+       autoplay: $autoplay,
+       autoplayTimeout:5000,
+       speed:450,
+       prevArrow: '<div class="poster-prev mt-radius"></div>',
+       nextArrow: '<div class="poster-next mt-radius"></div>',
+       responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: false,
+            autoplay: false,
+          }
+        }]
+    });
 
   jQuery('.mt-cool-slider-carousel').slick({
      arrows: false,
@@ -165,25 +182,5 @@ jQuery(document).ready(function() {
         }
       }]
   });
-  jQuery('.post-carousel').slick({
-       slidesToShow: 4,
-       variableWidth: true,
-       lazyLoad: 'ondemand',
-       autoplay: $autoplay,
-       autoplayTimeout:5000,
-       speed:450,
-       rtl: $rtl,
-       prevArrow: '<div class="poster-prev mt-radius"></div>',
-       nextArrow: '<div class="poster-next mt-radius"></div>',
-       responsive: [
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            variableWidth: false,
-            autoplay: false,
-          }
-        }]
-    });
+
 });

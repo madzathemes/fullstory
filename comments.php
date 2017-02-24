@@ -14,7 +14,7 @@
 ?>
 
 <?php if ( have_comments() ) : ?>
-<div id="coment-line-space"><!--<span class="line"></span><div class="clear"></div>--></div>
+<div id="coment-line-space"></div>
 
 			<h4 class="heading-left padding-0 mt-comment-head"><span><?php
 			printf( _n( 'One Comment', '%1$s Comments', get_comments_number(), 'fullstory' ),
@@ -64,54 +64,13 @@
 
 <?php
 $fields =  array(
-
-	'author' => '<div class="row"><div class="comment-input col-md-4 mt_comment_i_1"><input id="author" placeholder="'. esc_html__( 'Name', 'fullstory' ) .'" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" /></div>',
-
-	'email'  => '<div class="comment-input col-md-4 mt_comment_i_2"><input id="email" name="email" type="text"  placeholder="'. esc_html__( 'Email', 'fullstory' ) .'" value="' . esc_html(  $commenter['comment_author_email'] ) . '" size="30" /></div>',
+  'author' => '<div class="row"><div class="comment-input col-md-4 mt_comment_i_1"><input id="author" placeholder="'. esc_html__( 'Name', 'fullstory' ) .'" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" /></div>',
+  'email'  => '<div class="comment-input col-md-4 mt_comment_i_2"><input id="email" name="email" type="text"  placeholder="'. esc_html__( 'Email', 'fullstory' ) .'" value="' . esc_html(  $commenter['comment_author_email'] ) . '" size="30" /></div>',
 	'url'    => '<div class="comment-input col-md-4 mt_comment_i_3"><input class="input" id="url" name="url"  placeholder="'. esc_html__( 'Website', 'fullstory' ) .'" type="text" value="' . esc_url( $commenter['comment_author_url'] ) . '" size="30" /></div></div>',
 );
 
  $defaults = array(
-
-	'comment_field'        => '<span class="comment-adres-not-publish">Your email address will not be published.</span><p class="comment-textarea"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" ></textarea></p>',
-	'must_log_in'          => '<p class="must-log-in">' .  sprintf( wp_kses(__( 'You must be <a href="%s">logged in</a> to post a comment.', 'fullstory' ), array(
-    'a' => array(
-        'href' => array(),
-        'title' => array()
-    ),
-    'br' => array(),
-    'i' => array(
-        'class' => array()
-    ),
-    'em' => array(),
-    'strong' => array(),
-    'div' => array(
-        'class' => array()
-    ),
-    'span' => array(
-        'class' => array()
-    ),
-) ), wp_login_url( apply_filters( 'the_permalink', get_permalink( get_the_ID()) ) ) ) . '</p>',
-	'logged_in_as'         => '<p class="logged-in-as">' . sprintf( wp_kses(__( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account" class="mt-theme-text">Log out?</a>', 'fullstory' ), array(
-    'a' => array(
-        'href' => array(),
-        'title' => array()
-    ),
-    'br' => array(),
-    'i' => array(
-        'class' => array()
-    ),
-    'em' => array(),
-    'strong' => array(),
-    'div' => array(
-        'class' => array()
-    ),
-    'span' => array(
-        'class' => array()
-    ),
-) ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( get_the_ID() ) ) ) ) . '</p>',
-	'comment_notes_before' => '',
-	'comment_notes_after'  => '',
+  'comment_field'        => '<span class="comment-adres-not-publish">'. esc_html__( 'Your email address will not be published.') .'</span><p class="comment-textarea"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" ></textarea></p>',
 	'id_form'              => 'commentform',
 	'id_submit'            => 'submit',
 	'title_reply'          => esc_html__( 'Leave a Comment', 'fullstory' ),
