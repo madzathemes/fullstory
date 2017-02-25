@@ -5457,6 +5457,17 @@ li.mtc-buy {
 .mt-head-text {
   font-size: 16px;
   padding: 0px 0px 0px 10px;
+  overflow: hidden;
+  height: 18px;
+  line-height: 1;
+}
+.mt-head-text .slick-slide {
+  height: 18px;
+  font-size: 16px;
+  float: none;
+  width: 100%;
+}
+.mt-head.show .mt-head-text {
 }
 .mt-head-clock,
 .mt-head-date {
@@ -5492,6 +5503,29 @@ li.mtc-buy {
 .mt-head-aright:before{
   top:-2px;
   left:0px;
+}
+
+/* Type effect */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 

@@ -47,14 +47,32 @@ if(!empty($style)){
 <div class="container">
 	<div class="row mt-head">
 		<div class="col-md-8 pull-left">
-			<span class="mt-head-title">Last Rumor:</span>
-			<span class="mt-head-aleft"></span>
-			<span class="mt-head-aright"></span>
-			<span class="mt-head-text">Music festival season is officially in full swing</span>
+			<div class="mt-head-title pull-left">Last Rumor:</div>
+			<div class="mt-head-aleft pull-left"></div>
+			<div class="mt-head-aright pull-left"></div>
+			<div class="mt-head-text pull-left">
+				<div>
+					<?php
+					$item_nr = '9';
+					$category = '';
+					$tag = '';
+					$args = array(
+						'post_type'=>'post',
+						'posts_per_page'=>$item_nr,
+						'category_name'=>$category,
+						'tag'=>$tag
+					);
+					$the_query = new WP_Query( $args );
+					while ( $the_query->have_posts() ) : $the_query->the_post();
+						?><div><?php echo get_the_title();?></div><?php
+					endwhile;
+					?>
+				</div>
+			</div>
 		</div>
 		<div class="col-md-4 pull-right">
-			<span class="mt-head-date">06 Oct</span>
-			<span class="mt-head-clock">11:11:11</span>
+			<?php if ( true == get_theme_mod( 'mt_header_date', false ) ) { ?><span class="mt-head-date"><?php echo date( 'd M' ); ?></span><?php } ?>
+			<?php if ( true == get_theme_mod( 'mt_header_time', false ) ) { ?><span class="mt-head-clock"><div id="time-live">00:00<span>:00</span></div></span><?php } ?>
 		</div>
 	</div>
 </div>

@@ -44,7 +44,7 @@ jQuery(document).ready(function() {
 
   jQuery( '.single-content .entry-content a[href$=".gif"], .single-content .entry-content a[href$=".jpg"], .single-content .entry-content a[href$=".png"]' ).addClass( 'lightbox' );
 
-  jQuery('.mt-slide-1-img, .mt-slide-1-img-left, .mt-slide-1-img-right').addClass("show");
+  jQuery('.mt-slide-1-img, .mt-slide-1-img-left, .mt-slide-1-img-right, .mt-head').addClass("show");
 
   var head = (jQuery('.header-wrap').outerHeight());
   jQuery('.header-wrap-space').css({

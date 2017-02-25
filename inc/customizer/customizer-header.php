@@ -136,30 +136,6 @@ function fullstory_customize_header($wp_customize){
     ),
   ) );
 
-/*  Kirki::add_field( 'mt_space_logo', array(
-  	'type'        => 'spacing',
-  	'settings'    => 'mt_space_logo',
-  	'label'       => __( 'Logo Padding', 'my_textdomain' ),
-  	'section'     => 'fullstory_logo_settings',
-  	'priority'    => 10,
-  	'default'     => array(
-  		'top'    => '20px',
-  		'bottom' => '20px',
-  	),
-  ) );
-  Kirki::add_field( 'mt_space_menu', array(
-    'type'        => 'spacing',
-    'settings'    => 'mt_space_menu',
-    'label'       => __( 'Menu Padding', 'my_textdomain' ),
-    'section'     => 'fullstory_logo_settings',
-    'priority'    => 10,
-    'default'     => array(
-      'top'    => '20px',
-      'bottom' => '20px',
-    ),
-  ) ); */
-
-
 	 //  =============================
     //  = Logo margin Top
     //  =============================
@@ -281,7 +257,6 @@ function fullstory_customize_header($wp_customize){
 
         ),
     ));
-
 
 
 
@@ -590,6 +565,32 @@ function fullstory_customize_header($wp_customize){
        'mt-fixed-disabled' => esc_attr__( 'Disable', 'fullstory' ),
      ),
      ));
+
+     Kirki::add_field( 'mt_header_time', array(
+      'type'        => 'switch',
+      'settings'    => 'mt_header_time',
+      'label'       => esc_attr__( 'Header Time', 'fullstory' ),
+      'section'     => 'fullstory_header_top',
+      'default'     => 'off',
+      'priority'    => 10,
+      'choices'     => array(
+        'on'  => esc_attr__( 'On', 'fullstory' ),
+        'off' => esc_attr__( 'Off', 'fullstory' ),
+      ),
+      ));
+
+      Kirki::add_field( 'mt_header_date', array(
+       'type'        => 'switch',
+       'settings'    => 'mt_header_date',
+       'label'       => esc_attr__( 'Header Date', 'fullstory' ),
+       'section'     => 'fullstory_header_top',
+       'default'     => 'off',
+       'priority'    => 10,
+       'choices'     => array(
+         'on'  => esc_attr__( 'On', 'fullstory' ),
+         'off' => esc_attr__( 'Off', 'fullstory' ),
+       ),
+       ));
 
 }
 
