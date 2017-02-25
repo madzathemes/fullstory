@@ -215,4 +215,12 @@ jQuery(document).ready(function() {
     draggable: false,
   });
 
+  jQuery('.mt-head-aright').click(function() {
+jQuery('.mt-head-text > div').slick('slickNext');
+});
+
+jQuery('.mt-head-aleft').click(function() {
+jQuery('.mt-head-text > div').slick('slickPrev');
+});
+
 });
