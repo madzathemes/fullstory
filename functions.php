@@ -113,3 +113,6 @@ function fullstory_after_import_setup() {
 
 }
 add_action( 'pt-ocdi/after_import', 'fullstory_after_import_setup' );
+
+class fullstory_theme {
+}
