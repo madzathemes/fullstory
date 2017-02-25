@@ -5459,6 +5459,7 @@ li.mtc-buy {
   padding: 0px 0px 0px 10px;
   overflow: hidden;
   height: 18px;
+  display: none;
   line-height: 1;
   width: 80%;
 }
@@ -5469,6 +5470,7 @@ li.mtc-buy {
   float: left;
 }
 .mt-head.show .mt-head-text {
+  display: block;
 }
 .mt-head-clock,
 .mt-head-date {
