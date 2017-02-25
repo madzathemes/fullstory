@@ -4031,6 +4031,19 @@ opacity: 0.7
   .mt-slide-1-title.nr-1 h2 {
     font-size: 28px !important;
   }
+  .mt-head .col-md-8 {
+    display: none;
+  }
+  .mt-head .col-md-4 {
+    width: 100%;
+    text-align: center;
+  }
+  .mt-head-clock {
+    float:left!important;
+  }
+  .mt-head {
+    padding: 20px 0px!important;
+  }
 }
 
 @media all and (max-width: 782px) {
@@ -5510,6 +5523,7 @@ li.mtc-buy {
   top:-2px;
   left:0px;
 }
+
 
 /* Type effect */
 .typed-cursor{

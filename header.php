@@ -16,6 +16,7 @@ $option = get_option("fullstory_theme_options");
 <?php
 $bg_post = get_post_meta(get_the_ID(), "magazin_background_image", true);
 $style = get_post_meta(get_the_ID(), "magazin_post_style", true);
+$pagetop = get_post_meta(get_the_ID(), "magazin_page_top", true);
 
 $body_class = "";
 if(!empty($style)){
@@ -43,11 +44,11 @@ if(!empty($style)){
 <div class="mt-outer-wrap">
 
 <?php fullstory_header(); ?>
-<?php if(is_front_page()) { ?>
+<?php if($pagetop=="on") { ?>
 <div class="container">
 	<div class="row mt-head">
 		<div class="col-md-8 pull-left">
-			<div class="mt-head-title pull-left">Last Rumor:</div>
+			<div class="mt-head-title pull-left"><?php echo esc_html__( 'Last Rumor:', 'fullstory' ) ?></div>
 			<div class="mt-head-aleft pull-left"></div>
 			<div class="mt-head-aright pull-left"></div>
 			<div class="mt-head-text pull-left">
@@ -71,8 +72,8 @@ if(!empty($style)){
 			</div>
 		</div>
 		<div class="col-md-4 pull-right">
-			<?php if ( true == get_theme_mod( 'mt_header_date', false ) ) { ?><span class="mt-head-date"><?php echo date( 'd M' ); ?></span><?php } ?>
-			<?php if ( true == get_theme_mod( 'mt_header_time', false ) ) { ?><span class="mt-head-clock"><div id="time-live">00:00<span>:00</span></div></span><?php } ?>
+			<?php if ( true == get_theme_mod( 'mt_header_date', false ) ) { ?><div class="mt-head-date"><?php echo date( 'd M' ); ?></div><?php } ?>
+			<?php if ( true == get_theme_mod( 'mt_header_time', false ) ) { ?><div class="mt-head-clock"><div id="time-live">00:00<span>:00</span></div></div><?php } ?>
 		</div>
 	</div>
 </div>
