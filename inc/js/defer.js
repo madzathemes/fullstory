@@ -176,7 +176,7 @@ jQuery(document).ready(function() {
          return;
 
      elem[0].nodeValue = text.slice(first.length);
-     elem.before('<span class="mt-first-letter_">' + first + '</span>');
+     elem.before('<span class="mt-first-letter">' + first + '</span>');
 
 });
 
