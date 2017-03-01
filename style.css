@@ -1618,7 +1618,7 @@ h2.heading span {
 .socials a {
   display: block;
   padding: 12px 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: white!important;
   position: relative;
 }
@@ -1634,7 +1634,6 @@ h2.heading span {
   left: 45px;
   right: 0px;
   height: 100%;
-  background: rgba(0, 0, 0, 0.1);
 }
 .social-count {
   position: absolute !important;
