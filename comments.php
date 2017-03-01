@@ -70,7 +70,7 @@ $fields =  array(
 );
 
  $defaults = array(
-  'comment_field'        => '<span class="comment-adres-not-publish">'. esc_html__( 'Your email address will not be published.') .'</span><p class="comment-textarea"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" ></textarea></p>',
+  'comment_field'        => '<span class="comment-adres-not-publish">'. esc_html__( 'Your email address will not be published.', 'fullstory') .'</span><p class="comment-textarea"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" ></textarea></p>',
 	'id_form'              => 'commentform',
 	'id_submit'            => 'submit',
 	'title_reply'          => esc_html__( 'Leave a Comment', 'fullstory' ),

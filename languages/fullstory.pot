@@ -4,7 +4,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Text in function
-#: fullstory/inc/functions/functions-comment.php:88
+#: fullstory/comments.php:84
+msgid " "
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/functions/functions-comment.php:102
 msgid " Edit"
 msgstr ""
 
@@ -21,6 +26,11 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/functions/functions-comment.php:1
 msgid "%1$s."
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/single/single-content.php:44
+msgid "%s"
 msgstr ""
 
 #. Text in function
@@ -72,11 +82,6 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/functions/functions-general.php:21
 msgid "<span class=\"meta-nav\">Newer posts  &rarr;</span>"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/single/single-content.php:43
-msgid "About %s"
 msgstr ""
 
 #. Text in function
@@ -145,54 +150,14 @@ msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Bottom Footer Background"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Bottom Footer Link"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Bottom Footer Link Hover"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Bottom Footer Text"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-header.php:1
-msgid "Button: Hot Posts"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-header.php:1
-msgid "Button: Latest Posts"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-header.php:1
-msgid "Button: Popular Posts"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-header.php:1
-msgid "Button: Trending Posts"
-msgstr ""
-
-#. Text in function
-#: fullstory/comments.php:125
-msgid "Cancel reply"
-msgstr ""
-
-#. Text in function
 #: fullstory/category.php:52
 #: fullstory/category.php:59
 msgid "Category"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Color"
 msgstr ""
 
 #. Text in function
@@ -202,7 +167,7 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
-msgid "Copyright 2016. Powered by WordPress Theme. By Madars Bitenieks"
+msgid "Copyright 2017. Powered by WordPress Theme. By Madars Bitenieks"
 msgstr ""
 
 #. Text in function
@@ -266,8 +231,8 @@ msgid "Default: 40"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/customizer/customizer-posts.php:1
 #: fullstory/inc/customizer/customizer-header.php:1
+#: fullstory/inc/customizer/customizer-posts.php:1
 msgid "Disable"
 msgstr ""
 
@@ -297,13 +262,12 @@ msgid "Edit"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Email"
 msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-posts.php:1
-#: fullstory/inc/customizer/customizer-header.php:1
 msgid "Enable"
 msgstr ""
 
@@ -318,7 +282,7 @@ msgid "Facebook icon link"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-sidebar.php:11
+#: fullstory/inc/single/single-sidebar.php:17
 msgid "Featured Post"
 msgstr ""
 
@@ -354,11 +318,6 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Footer Border"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Footer Colors"
 msgstr ""
 
@@ -373,6 +332,11 @@ msgid "Footer Settings"
 msgstr ""
 
 #. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Footer Social Icons"
+msgstr ""
+
+#. Text in function
 #: fullstory/inc/customizer/customizer-ads.php:1
 msgid "Footer top ad"
 msgstr ""
@@ -380,6 +344,11 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Form Button"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Full Width"
 msgstr ""
 
 #. Text in function
@@ -423,8 +392,8 @@ msgid "H6 size (px)"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:105
 #: fullstory/inc/functions/functions-footer.php:95
+#: fullstory/inc/functions/functions-header.php:111
 msgid "HOT"
 msgstr ""
 
@@ -445,17 +414,12 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-header.php:1
-msgid "Header Button Name"
+msgid "Header Date"
 msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-header.php:1
-msgid "Header Button Open In New Tap"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-header.php:1
-msgid "Header Button URL"
+msgid "Header Time"
 msgstr ""
 
 #. Text in function
@@ -489,6 +453,11 @@ msgid "Icon"
 msgstr ""
 
 #. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Image Hover Zoom"
+msgstr ""
+
+#. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
 msgid "Instagram icon link"
 msgstr ""
@@ -509,9 +478,14 @@ msgid "Installing Plugin: %s"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:103
 #: fullstory/inc/functions/functions-footer.php:93
+#: fullstory/inc/functions/functions-header.php:109
 msgid "LATEST"
+msgstr ""
+
+#. Text in function
+#: fullstory/header.php:51
+msgid "Last Rumor:"
 msgstr ""
 
 #. Text in function
@@ -520,12 +494,12 @@ msgid "Layouts"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Leave a Comment"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Leave a Reply to %s"
 msgstr ""
 
@@ -547,11 +521,6 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Links"
-msgstr ""
-
-#. Text in function
-#: fullstory/comments.php:125
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\" class=\"mt-theme-text\">Log out?</a>"
 msgstr ""
 
 #. Text in function
@@ -601,17 +570,7 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Menu Social Icons"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Menu Sub Links"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Mobile Header"
 msgstr ""
 
 #. Text in function
@@ -675,7 +634,7 @@ msgid "Mobile Menu Title"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Name"
 msgstr ""
 
@@ -690,7 +649,7 @@ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:63
+#: fullstory/inc/single/single-content.php:82
 msgid "Next article"
 msgstr ""
 
@@ -710,9 +669,19 @@ msgid "No older posts found"
 msgstr ""
 
 #. Text in echo
+#: fullstory/search.php:51
 #: fullstory/tag.php:24
-#: fullstory/search.php:28
 msgid "Nothing Found"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "OFF"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "ON"
 msgstr ""
 
 #. Text in function
@@ -736,11 +705,6 @@ msgid "One Click Demo Import"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Only Text"
-msgstr ""
-
-#. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
 msgid "Open in new page"
 msgstr ""
@@ -756,8 +720,8 @@ msgid "Out"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:104
 #: fullstory/inc/functions/functions-footer.php:94
+#: fullstory/inc/functions/functions-header.php:110
 msgid "POPULAR"
 msgstr ""
 
@@ -793,6 +757,7 @@ msgstr ""
 
 #. Text in function
 #: fullstory/content.php:39
+#: fullstory/search.php:40
 msgid "Permalink to %s"
 msgstr ""
 
@@ -867,19 +832,19 @@ msgid "Post View Count"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:103
-#: fullstory/inc/functions/functions-header.php:104
-#: fullstory/inc/functions/functions-header.php:105
-#: fullstory/inc/functions/functions-header.php:106
 #: fullstory/inc/functions/functions-footer.php:93
 #: fullstory/inc/functions/functions-footer.php:94
 #: fullstory/inc/functions/functions-footer.php:95
 #: fullstory/inc/functions/functions-footer.php:96
+#: fullstory/inc/functions/functions-header.php:109
+#: fullstory/inc/functions/functions-header.php:110
+#: fullstory/inc/functions/functions-header.php:111
+#: fullstory/inc/functions/functions-header.php:112
 msgid "Posts"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:62
+#: fullstory/inc/single/single-content.php:81
 msgid "Previous article"
 msgstr ""
 
@@ -964,14 +929,14 @@ msgid "Settings"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-header.php:216
-#: fullstory/inc/single/single-heads.php:61
+#: fullstory/inc/functions/functions-header.php:238
 #: fullstory/inc/single/single-content.php:25
+#: fullstory/inc/single/single-heads.php:76
 msgid "Share on Facebook"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-heads.php:52
+#: fullstory/inc/single/single-heads.php:69
 msgid "Shares"
 msgstr ""
 
@@ -1026,26 +991,6 @@ msgid "Smart Menu"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Social Icon"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Social Icon Background"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Social Icon Hover"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Social Icon Hover Background"
-msgstr ""
-
-#. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
 msgid "Social Icons"
 msgstr ""
@@ -1056,7 +1001,8 @@ msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #. Text in echo
-#: fullstory/search.php:30
+#: fullstory/search.php:44
+#: fullstory/search.php:53
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr ""
 
@@ -1066,13 +1012,13 @@ msgid "Style"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Submit Comment"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:106
 #: fullstory/inc/functions/functions-footer.php:96
+#: fullstory/inc/functions/functions-header.php:112
 msgid "TRENDING"
 msgstr ""
 
@@ -1084,6 +1030,11 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Text"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Text If Background"
 msgstr ""
 
 #. Text in function
@@ -1152,34 +1103,19 @@ msgid "Top Bar"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Top Footer Background"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Top Footer Link"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/customizer/customizer-colors.php:1
-msgid "Top Footer Link Hover"
-msgstr ""
-
-#. Text in function
 #: fullstory/inc/customizer/customizer-header.php:1
 msgid "Top Space"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/single/single-sidebar.php:26
+#: fullstory/inc/single/single-sidebar.php:25
 msgid "Trending Posts"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-header.php:217
-#: fullstory/inc/single/single-heads.php:62
+#: fullstory/inc/functions/functions-header.php:239
 #: fullstory/inc/single/single-content.php:26
+#: fullstory/inc/single/single-heads.php:77
 msgid "Tweet on Twitter"
 msgstr ""
 
@@ -1189,7 +1125,7 @@ msgid "Twitter icon link"
 msgstr ""
 
 #. Text in echo
-#: fullstory/inc/functions/functions-header.php:84
+#: fullstory/inc/functions/functions-header.php:88
 msgid "Type and hit enter to search ..."
 msgstr ""
 
@@ -1225,13 +1161,12 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/functions/functions-comment.php:1
-#: fullstory/inc/single/single-content.php:47
 #: fullstory/inc/functions/functions-general.php:26
 msgid "View all posts by %s"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-heads.php:53
+#: fullstory/inc/single/single-heads.php:70
 msgid "Views"
 msgstr ""
 
@@ -1241,7 +1176,7 @@ msgid "Vimeo icon link"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:125
+#: fullstory/comments.php:84
 msgid "Website"
 msgstr ""
 
@@ -1256,13 +1191,8 @@ msgid "YOUR AD CODE"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:68
+#: fullstory/inc/single/single-content.php:87
 msgid "You may be interested"
-msgstr ""
-
-#. Text in function
-#: fullstory/comments.php:125
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
 #. Text in echo
@@ -1271,8 +1201,23 @@ msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #. Text in function
+#: fullstory/comments.php:84
+msgid "Your email address will not be published."
+msgstr ""
+
+#. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
 msgid "Youtube icon link"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Zoom Off"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/customizer/customizer-colors.php:1
+msgid "Zoom On"
 msgstr ""
 
 #. Text in function

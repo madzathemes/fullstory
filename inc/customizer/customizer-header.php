@@ -146,7 +146,7 @@ function fullstory_customize_header($wp_customize){
   	'settings'    => 'fullstory_theme_options[logo_top]',
   	'label'       => esc_attr__( 'Top Space', 'fullstory' ),
   	'section'     => 'fullstory_logo_settings',
-  	'default'     => 18,
+  	'default'     => 8,
     'option_type' => 'option',
   	'choices'     => array(
   		'min'  => 0,
@@ -163,7 +163,7 @@ function fullstory_customize_header($wp_customize){
   	'settings'    => 'fullstory_theme_options[logo_bottom]',
   	'label'       => esc_attr__( 'Top Space', 'fullstory' ),
   	'section'     => 'fullstory_logo_settings',
-  	'default'     => 18,
+  	'default'     => 8,
     'option_type' => 'option',
   	'choices'     => array(
   		'min'  => 0,
