@@ -195,8 +195,11 @@ input,
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
 }
-body {
-  font-family: 'Lato', sans-serif;
+body, p {
+   font-family: Verdana,Geneva,sans-serif;
+}
+h1,h2,h3,h4,h5,h6, blockquote, blockquote p, .mt-first-letter {
+  font-family: Roboto;
 }
 @font-face {
   font-family: "madza";
