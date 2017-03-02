@@ -74,7 +74,7 @@ add_action( 'after_setup_theme', 'fullstory_theme_setup' );
 
 
 if ( ! isset( $content_width ) ) {
-	$content_width = 740;
+	$content_width = 808;
 }
 
 function fullstory_import_files() {
