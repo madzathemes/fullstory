@@ -626,14 +626,14 @@ blockquote:after {
 }
 .entry-content ul li,
 .entry-content ol li{
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
   padding: 0px;
 }
 .entry-content ul ul,
 .entry-content ol ul,
 .entry-content ul ol,
 .entry-content ol ol {
-  margin: 10px 0px 0px 10px;
+  margin: 20px 0px 0px 10px;
 }
 .wp-caption {
   padding: 0px;
