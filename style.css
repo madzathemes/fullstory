@@ -1606,6 +1606,7 @@ h2.heading span {
   letter-spacing: 1px;
   font-weight: 700;
   background: #1e1e1f;
+  display: inline-block;
   color: white;
 }
 .title_bg_fix h2.heading span {
@@ -5176,7 +5177,7 @@ li.mtc-buy {
 }
 .mt-readmore-url {
   display: inline-block!important;
-  padding: 7px 14px 7px;
+  padding: 15px 30px;
   font-size: 12px;
   text-transform: uppercase;
   background: black;
