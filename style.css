@@ -1599,19 +1599,13 @@ h2.heading.heading-left {
 h2.heading.heading-right {
   text-align: right;
 }
-h2.heading.heading-left span {
-  padding: 0px 0px;
-}
-h2.heading.heading-right span {
-  padding: 0px 0px;
-}
 h2.heading span {
   z-index: 2;
   position: relative;
   padding: 4px 8px;
   letter-spacing: 1px;
   font-weight: 700;
-  background: black;
+  background: #1e1e1f;
   color: white;
 }
 .title_bg_fix h2.heading span {
