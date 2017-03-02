@@ -1589,7 +1589,6 @@ h2.heading {
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  font-size: 12px!important;
   padding-bottom: 20px;
   padding-top: 0px;
 }
@@ -1605,6 +1604,7 @@ h2.heading span {
   padding: 4px 8px;
   letter-spacing: 1px;
   font-weight: 700;
+  font-size: 12px!important;
   background: #1e1e1f;
   display: inline-block;
   color: white;
@@ -5177,7 +5177,7 @@ li.mtc-buy {
 }
 .mt-readmore-url {
   display: inline-block!important;
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 12px;
   text-transform: uppercase;
   background: #1e1e1f;
