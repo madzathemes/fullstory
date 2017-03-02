@@ -352,7 +352,7 @@ function fullstory_header_script() {
 
     function fullstory_fonts_url() {
 
-      $theme_font = "Roboto:400,700";
+      $theme_font = "Lato:400,900,700";
 
         /*
         Translators: If there are characters in your language that are not supported
