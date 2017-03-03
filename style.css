@@ -1590,6 +1590,7 @@ h2.heading {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 20px;
+  font-size: 12px!important;
   padding-top: 0px;
 }
 h2.heading.heading-left {
