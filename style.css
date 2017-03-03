@@ -4145,6 +4145,9 @@ opacity: 0.7
     text-align: center;
   }
 }
+@media all and (max-width: 600px) {
+  .admin-bar .header-wrap { position: absolute!important; }
+}
 @media all and (max-width: 580px) {
   .poster-carousel .poster-image {
     width: 100%;
