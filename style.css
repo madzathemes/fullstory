@@ -4802,7 +4802,7 @@ button::-moz-focus-inner {
   .mfp-arrow-left:after {
     font-family: "madza";
     color: white;
-    content: "\61"; }
+    content: "\e901"; }
 
 .mfp-arrow-right {
   right: 90px; }
