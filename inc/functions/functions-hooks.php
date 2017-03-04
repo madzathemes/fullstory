@@ -464,6 +464,17 @@ function fullstory_class($classes) {
 		$body_class .= ' header-top-off';
 	}
 
+	$first_leter = get_post_meta(get_the_ID(), "magazin_first_letter", true);
+	if(!empty($first_leter)){
+		if ($first_leter=="on") {
+			$body_class .= ' mt-fl-on ';
+		}
+	} else {
+		if ( true == get_theme_mod( 'mt_first_letter', false ) ) {
+			$body_class .=' mt-fl-on ';
+		}
+	}
+
 
 	$page_space = get_post_meta(get_the_ID(), "magazin_page_padding", true);
 	if(!empty($page_space)){

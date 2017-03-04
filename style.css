@@ -2658,7 +2658,7 @@ opacity: 0.7
 .single-content p {
     color: #1b1c2a;
 }
-.mt-first-letter {
+.mt-fl-on .mt-first-letter {
   font-size: 68px;
   border: 0px solid black;
   line-height: 1;

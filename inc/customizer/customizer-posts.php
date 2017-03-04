@@ -50,6 +50,20 @@ function fullstory_customize_posts($wp_customize){
   	   ),
   ));
 
+
+  Kirki::add_field( 'mt_first_letter', array(
+   'type'        => 'switch',
+   'settings'    => 'mt_first_letter',
+   'label'       => esc_attr__( 'First Letter Dropcaps', 'fullstory' ),
+   'section'     => 'facebook_excerpt',
+   'default'     => 'off',
+   'priority'    => 10,
+   'choices'     => array(
+     'on'  => esc_attr__( 'On', 'fullstory' ),
+     'off' => esc_attr__( 'Off', 'fullstory' ),
+   ),
+   ));
+
 }
 
 add_action('customize_register', 'fullstory_customize_posts');
