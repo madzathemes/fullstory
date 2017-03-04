@@ -4788,7 +4788,7 @@ button::-moz-focus-inner {
     left: 0;
     top: 0;
     margin-top: 35px;
-    margin-left: 35px;
+    margin-left: 40px;
     border: medium inset transparent; }
   .mfp-arrow:after {
     top: 8px; }
