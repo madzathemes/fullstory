@@ -81,7 +81,7 @@ function fullstory_comment( $comment, $args, $depth ) {
 								esc_url( get_comment_link( $comment->comment_ID ) ),
 								get_comment_time( 'n-j-Y' ),
 								/* translators: 1: date, 2: time */
-								sprintf( esc_html__( '%1$s at %2$s', 'fullstory' ), get_comment_date('n-j-Y' ), get_comment_time() )
+								sprintf( esc_html__( '%1$s at %2$s', 'fullstory' ), get_comment_date('Y-j-n' ), get_comment_time() )
 							)
 						);
 					?>
