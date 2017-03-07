@@ -79,7 +79,7 @@ function fullstory_comment( $comment, $args, $depth ) {
 							sprintf( '<span class="fn">%s</span>', get_comment_author_link() ),
 							sprintf( '<a href="%1$s" class="mt_comment_date"> <time pubdate datetime="%2$s">%3$s</time></a>',
 								esc_url( get_comment_link( $comment->comment_ID ) ),
-								get_comment_time( 'Y-n-j' ),
+								get_comment_time( 'Y-N-j' ),
 								/* translators: 1: date, 2: time */
 								sprintf( esc_html__( '%1$s at %2$s', 'fullstory' ), get_comment_date('Y-N-j' ), get_comment_time() )
 							)
