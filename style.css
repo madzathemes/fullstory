@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*-----------------------------------------------------------------------------------
-  	Version: 1.0
+  	Version: 1.1
     Theme Name: FullStory
     Theme URI: fullstory.tophot.wpengine.com
     Description: Magazine / Blog
@@ -1055,6 +1055,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 	transition: none;
 }
 .sf-menu > li.current_page_item > a::before,
+.sf-menu > li.current_page_parent > a::before,
 .sf-menu > li > a::before {
   content: "";
   width: 0%;
@@ -1067,6 +1068,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   background: #ff0036;
 }
 .sf-menu > li.current_page_item > a::before,
+.sf-menu > li.current_page_parent > a::before,
 .sf-menu > li > a:hover::before {
   width: 100%;
 }
@@ -1905,7 +1907,9 @@ h2.heading span {
 .poster-image:hover .poster-data {
   opacity: 1;
 }
-.mt-list-stats-on { }
+.remove-pl-date .poster-image .poster-data {
+  display: none!important;
+}
 .poster-image .poster-data {
   display: block!important;
 }
@@ -1959,9 +1963,9 @@ h2.heading span {
 }
 .zoom-on .poster.normal:hover .poster-image .mt-post-image,
 .zoom-on .poster-small-bottom:hover .mt-post-image{
-  -webkit-transform: scale(0.85);
-  -ms-transform: scale(0.85);
-  transform: scale(0.85);
+  -webkit-transform: scale(0.92);
+  -ms-transform: scale(0.92);
+  transform: scale(0.92);
 }
 
 .poster-shares {
