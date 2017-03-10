@@ -65,7 +65,7 @@ if(!empty($style)){
 					);
 					$the_query = new WP_Query( $args );
 					while ( $the_query->have_posts() ) : $the_query->the_post();
-						?><div><?php echo get_the_title();?></div><?php
+						?><div><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title();?></a></div><?php
 					endwhile;
 					?>
 				</div>

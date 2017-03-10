@@ -26,13 +26,7 @@ else if(!empty($option['menu_background_width'])) {
 }
 ?>
 
-<?php if  (!empty($optioz['header_ad_top'])) {  ?>
-	<div class="mt-t-ad">
-		<div class="mt-t-ad-in">
-			<?php echo html_entity_decode($optioz['header_ad_top']); ?>
-		</div>
-	</div>
-<?php } ?>
+
 <div class="header-wrap" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 	<?php if ( true == get_theme_mod( 'mt_header_top', false ) ) {  ?>
 		<div class="header-mt-container-wrap">
@@ -101,6 +95,13 @@ else if(!empty($option['menu_background_width'])) {
 	<?php	if ( true == get_theme_mod( 'mt_menu_share', true ) ) { fullstory_header_fixed();	} ?>
 </div>
 <div class="header-wrap-space"></div>
+<?php if  (!empty($optioz['header_ad_top'])) {  ?>
+	<div class="mt-t-ad">
+		<div class="mt-t-ad-in">
+			<?php echo html_entity_decode($optioz['header_ad_top']); ?>
+		</div>
+	</div>
+<?php } ?>
 <?php } add_filter('fullstory_header','fullstory_header');
 
 

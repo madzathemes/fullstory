@@ -134,7 +134,7 @@ jQuery(document).ready(function() {
     lazyLoad: 'ondemand',
     autoplay: $autoplay,
     autoplayTimeout:12000,
-    speed:1800,
+    speed:1500,
     vertical: true,
     pauseOnFocus: false,
     pauseOnHover: false,
@@ -183,11 +183,19 @@ jQuery(document).ready(function() {
   });
 
   jQuery('.mt-head-aright').click(function() {
-jQuery('.mt-head-text > div').slick('slickNext');
-});
+  jQuery('.mt-head-text > div').slick('slickNext');
+  });
 
-jQuery('.mt-head-aleft').click(function() {
-jQuery('.mt-head-text > div').slick('slickPrev');
-});
+  jQuery('.mt-head-aleft').click(function() {
+  jQuery('.mt-head-text > div').slick('slickPrev');
+  });
+
+  jQuery('.mt-slide-1-img-left').click(function() {
+  jQuery('.mt-slide-1-img-left, .mt-slide-1-img-right, .mt-cool-slider-carousel, .mt-cool-slider-big-title, .mt-cool-slider-big-title, .mt-cool-slider-small-title').slick('slickNext');
+  });
+
+  jQuery('.mt-slide-1-img-right').click(function() {
+  jQuery('.mt-slide-1-img-left, .mt-slide-1-img-right, .mt-cool-slider-carousel, .mt-cool-slider-big-title, .mt-cool-slider-big-title, .mt-cool-slider-small-title').slick('slickPrev');
+  });
 
 });
