@@ -119,7 +119,8 @@ h4,
 .nav-button .mt-m-cool-button-line:after,
 .nav-button .mt-m-cool-button-line:before,
 .nav-button .mt-m-cool-button-line,
-.poster i{
+.poster i,
+.mt-slide-1 .mt-post-image-background{
   -webkit-transition: all 200ms ease-in-out!important;
   -moz-transition: all 200ms ease-in-out!important;
   -ms-transition: all 200ms ease-in-out!important;
@@ -5415,10 +5416,14 @@ li.mtc-buy {
     height: 100%;
     position: relative;
     -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  -o-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 0;
+}
+.mt-slide-1:hover .mt-post-image-background {
+  opacity: 1;
 }
 .mt-cool-slider {
   margin: 0 auto;
