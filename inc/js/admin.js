@@ -22,4 +22,24 @@ jQuery(document).ready(function() {
   });
 
 
+  jQuery('#magazin_metabox_reviews_setting, .mt-review-shortcode').hide();
+
+  jQuery('#magazin_review_type2, #magazin_review_type3, #magazin_review_type4').is(':checked') ? jQuery("#magazin_metabox_reviews_setting").show() : jQuery("#magazin_metabox_reviews_setting").hide();
+
+  jQuery('#magazin_review_type2, #magazin_review_type3, #magazin_review_type4').click(function() {
+      jQuery("#magazin_metabox_reviews_setting").toggle(this.checked);
+  });
+  jQuery('#magazin_review_type1').click(function() {
+      jQuery('#magazin_metabox_reviews_setting').hide();
+  });
+
+  jQuery('#magazin_review_location3').is(':checked') ? jQuery(".mt-review-shortcode").show() : jQuery(".mt-review-shortcode").hide();
+
+  jQuery('#magazin_review_location3').click(function() {
+      jQuery(".mt-review-shortcode").toggle(this.checked);
+  });
+  jQuery('#magazin_review_location1, #magazin_review_location2').click(function() {
+      jQuery('.mt-review-shortcode').hide();
+  });
+
 });

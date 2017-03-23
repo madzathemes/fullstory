@@ -48,7 +48,7 @@ if(!empty($style)){
 <div class="container">
 	<div class="row mt-head">
 		<div class="col-md-8 pull-left">
-			<div class="mt-head-title pull-left"><?php echo esc_html__( 'Last Rumor:', 'fullstory' ) ?></div>
+			<div class="mt-head-title pull-left"><?php if ( false == get_theme_mod( 't_p_last_rumor', false ) ) { $t_p_last_rumor = esc_html__("Last Rumor:", "fullstory");  } else { $t_p_last_rumor = get_theme_mod( 't_p_last_rumor' ); } echo esc_html($t_p_last_rumor) ?></div>
 			<div class="mt-head-aleft pull-left"></div>
 			<div class="mt-head-aright pull-left"></div>
 			<div class="mt-head-text pull-left">

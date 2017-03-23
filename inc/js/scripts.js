@@ -17,9 +17,10 @@ jQuery(document).ready(function() {
   var orderbyh = jQuery( ".mt-load-more" ).data( "orderbyh" );
   var orderbyt = jQuery( ".mt-load-more" ).data( "orderbyt" );
   var author = jQuery( ".mt-load-more" ).data( "author" );
+  var review_star = jQuery( ".mt-load-more" ).data( "review_star" );
 
   function load_posts_1(){
-      var str = '&offset=' + offset_1 + '&ppp=' + ppp + '&action=more_post_ajax&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '';
+      var str = '&offset=' + offset_1 + '&ppp=' + ppp + '&action=more_post_ajax&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -46,7 +47,7 @@ jQuery(document).ready(function() {
 
   function load_posts_2(){
 
-      var str = '&offset=' + offset_2 + '&ppp=' + ppp + '&action=more_post_ajax&format=posts&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '';
+      var str = '&offset=' + offset_2 + '&ppp=' + ppp + '&action=more_post_ajax&format=posts&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -72,7 +73,7 @@ jQuery(document).ready(function() {
   }
 
   function load_posts_3(){
-      var str = '&offset=' + offset_3 + '&ppp=' + ppp + '&action=more_post_ajax&format=video&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '';
+      var str = '&offset=' + offset_3 + '&ppp=' + ppp + '&action=more_post_ajax&format=video&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -99,7 +100,7 @@ jQuery(document).ready(function() {
 
   function load_posts_4(){
 
-      var str = '&offset=' + offset_4 + '&ppp=' + ppp + '&action=more_post_ajax&format=gallery&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '';
+      var str = '&offset=' + offset_4 + '&ppp=' + ppp + '&action=more_post_ajax&format=gallery&category=' + category + '&tag=' + tag + '&orderby=' + orderby + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -126,7 +127,7 @@ jQuery(document).ready(function() {
 
   function load_posts_popular(){
 
-      var str = '&offset=' + offset_popular + '&ppp=' + ppp + '&action=more_post_ajax&format=popular&category=' + category + '&orderby=' + orderbyp + '&author=' + author + '';
+      var str = '&offset=' + offset_popular + '&ppp=' + ppp + '&action=more_post_ajax&format=popular&category=' + category + '&orderby=' + orderbyp + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -153,7 +154,7 @@ jQuery(document).ready(function() {
 
   function load_posts_hot(){
 
-      var str = '&offset=' + offset_hot + '&ppp=' + ppp + '&action=more_post_ajax&format=hot&category=' + category + '&orderby=' + orderbyh + '&author=' + author + '';
+      var str = '&offset=' + offset_hot + '&ppp=' + ppp + '&action=more_post_ajax&format=hot&category=' + category + '&orderby=' + orderbyh + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",
@@ -180,7 +181,7 @@ jQuery(document).ready(function() {
 
   function load_posts_trending(){
 
-      var str = '&offset=' + offset_trending + '&ppp=' + ppp + '&action=more_post_ajax&format=trending&category=' + category + '&orderby=' + orderbyt + '&author=' + author + '';
+      var str = '&offset=' + offset_trending + '&ppp=' + ppp + '&action=more_post_ajax&format=trending&category=' + category + '&orderby=' + orderbyt + '&author=' + author + '&review_star=' + review_star + '';
       jQuery.ajax({
           type: "POST",
           dataType: "html",

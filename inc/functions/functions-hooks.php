@@ -40,7 +40,8 @@ function fullstory_css() {
 			.mt-tabc:before,
 			.mt-subscribe-footer input.mt-s-b:hover,
 			.poster:hover h2, .poster-small:hover h4, .poster-small-bottom:hover h4,
-			.poster-cat span {';
+			.poster-cat span,
+			.mt-review a:hover {';
 			if(!empty($options_in['textinbackground'])){ if($options_in['textinbackground']!='#fffff1'){
 				$custom_styles .=' color: '. esc_attr($options_in['textinbackground']) .'!important; ';
 			}}
