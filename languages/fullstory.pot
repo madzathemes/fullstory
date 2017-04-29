@@ -4,22 +4,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Text in function
-#: fullstory/comments.php:84
-msgid " "
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/functions/functions-comment.php:102
-msgid " Edit"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/functions/functions-comment.php:70
+#: fullstory/inc/functions/functions-comment.php:77
 msgid "%1$s %2$s"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-comment.php:70
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "%1$s at %2$s"
 msgstr ""
 
@@ -29,32 +19,32 @@ msgid "%1$s."
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:44
+#: fullstory/inc/single/single-content.php:63
 msgid "%s"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:26
+#: fullstory/inc/functions/functions-general.php:29
 msgid ", "
 msgstr ""
 
 #. Text in echo
-#: fullstory/404.php:5
+#: fullstory/404.php:6
 msgid "404"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:26
+#: fullstory/inc/functions/functions-general.php:29
 msgid "<div class=\"mt-meta\"><i class=\"fa fa-folder-open-o\"></i> %1$s <span class=\"mt_space\"></span> <i class=\"fa fa-calendar\"></i> %3$s </div>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:26
+#: fullstory/inc/functions/functions-general.php:29
 msgid "<div class=\"mt-meta\"><i class=\"fa fa-folder-open-o\"></i> %1$s <span class=\"mt_space\"></span> <i class=\"fa fa-tag\"></i> %2$s <span class=\"mt_space\"></span> <i class=\"fa fa-calendar\"></i> %3$s </div>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:26
+#: fullstory/inc/functions/functions-general.php:29
 msgid "<div class=\"mt-meta\">Posted on <i class=\"fa fa-calendar\"></i> %3$s </div>"
 msgstr ""
 
@@ -64,24 +54,14 @@ msgid "<span class=\"date_links\">%2$s</span>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:17
-msgid "<span class=\"meta-nav\">&larr; Older posts</span> "
-msgstr ""
-
-#. Text in function
-#: fullstory/comments.php:30
-#: fullstory/comments.php:49
+#: fullstory/comments.php:99
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:90
+#: fullstory/inc/functions/functions-general.php:1
+#: fullstory/inc/functions/functions-general.php:29
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/functions/functions-general.php:21
-msgid "<span class=\"meta-nav\">Newer posts  &rarr;</span>"
 msgstr ""
 
 #. Text in function
@@ -99,8 +79,8 @@ msgstr ""
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
-#. Text in echo
-#: fullstory/tag.php:28
+#. Text in function
+#: fullstory/tag.php:1
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr ""
 
@@ -150,14 +130,18 @@ msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\
 msgstr ""
 
 #. Text in function
-#: fullstory/category.php:52
-#: fullstory/category.php:59
+#: fullstory/category.php:1
 msgid "Category"
 msgstr ""
 
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Color"
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/single/single-heads.php:78
+msgid "Comments"
 msgstr ""
 
 #. Text in function
@@ -257,12 +241,12 @@ msgid "Dribble icon link"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-comment.php:61
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "Edit"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Email"
 msgstr ""
 
@@ -273,7 +257,7 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/functions/functions-plugins.php:1
-msgid "Envato WordPress Toolkit"
+msgid "Envato Market"
 msgstr ""
 
 #. Text in function
@@ -282,7 +266,7 @@ msgid "Facebook icon link"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-sidebar.php:17
+#: fullstory/inc/single/single-sidebar.php:1
 msgid "Featured Post"
 msgstr ""
 
@@ -301,8 +285,8 @@ msgstr ""
 msgid "Follow Us"
 msgstr ""
 
-#. Text in echo
-#: fullstory/inc/functions/functions-header.php:48
+#. Text in function
+#: fullstory/inc/functions/functions-header.php:1
 msgid "Followers"
 msgstr ""
 
@@ -393,7 +377,7 @@ msgstr ""
 
 #. Text in echo
 #: fullstory/inc/functions/functions-footer.php:95
-#: fullstory/inc/functions/functions-header.php:111
+#: fullstory/inc/functions/functions-header.php:114
 msgid "HOT"
 msgstr ""
 
@@ -438,11 +422,6 @@ msgid "Height"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:95
-msgid "Home"
-msgstr ""
-
-#. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Hover"
 msgstr ""
@@ -479,7 +458,7 @@ msgstr ""
 
 #. Text in echo
 #: fullstory/inc/functions/functions-footer.php:93
-#: fullstory/inc/functions/functions-header.php:109
+#: fullstory/inc/functions/functions-header.php:112
 msgid "LATEST"
 msgstr ""
 
@@ -494,12 +473,12 @@ msgid "Layouts"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Leave a Comment"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Leave a Reply to %s"
 msgstr ""
 
@@ -521,6 +500,11 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/customizer/customizer-colors.php:1
 msgid "Links"
+msgstr ""
+
+#. Text in function
+#: fullstory/comments.php:99
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\" class=\"mt-theme-text\">Log out?</a>"
 msgstr ""
 
 #. Text in function
@@ -634,28 +618,24 @@ msgid "Mobile Menu Title"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Name"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:50
+#: fullstory/comments.php:99
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:91
+#: fullstory/inc/functions/functions-general.php:1
+#: fullstory/inc/functions/functions-general.php:29
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:82
+#: fullstory/inc/single/single-content.php:1
 msgid "Next article"
-msgstr ""
-
-#. Text in echo
-#: fullstory/404.php:6
-msgid "No Page Found"
 msgstr ""
 
 #. Text in function
@@ -668,9 +648,10 @@ msgstr ""
 msgid "No older posts found"
 msgstr ""
 
-#. Text in echo
-#: fullstory/search.php:51
-#: fullstory/tag.php:24
+#. Text in function
+#: fullstory/404.php:2
+#: fullstory/search.php:7
+#: fullstory/tag.php:1
 msgid "Nothing Found"
 msgstr ""
 
@@ -721,17 +702,12 @@ msgstr ""
 
 #. Text in echo
 #: fullstory/inc/functions/functions-footer.php:94
-#: fullstory/inc/functions/functions-header.php:110
+#: fullstory/inc/functions/functions-header.php:113
 msgid "POPULAR"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-general.php:95
-msgid "Page"
-msgstr ""
-
-#. Text in function
-#: fullstory/inc/functions/functions-general.php:95
+#: fullstory/inc/functions/functions-general.php:104
 msgid "Page %s"
 msgstr ""
 
@@ -746,7 +722,7 @@ msgid "Page Layouts"
 msgstr ""
 
 #. Text in function
-#: fullstory/content.php:64
+#: fullstory/content.php:1
 msgid "Pages:"
 msgstr ""
 
@@ -756,8 +732,8 @@ msgid "Parallax"
 msgstr ""
 
 #. Text in function
-#: fullstory/content.php:39
-#: fullstory/search.php:40
+#: fullstory/content.php:1
+#: fullstory/search.php:7
 msgid "Permalink to %s"
 msgstr ""
 
@@ -766,8 +742,8 @@ msgstr ""
 msgid "Photo bg"
 msgstr ""
 
-#. Text in echo
-#: fullstory/inc/functions/functions-comment.php:61
+#. Text in function
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "Pingback:"
 msgstr ""
 
@@ -836,25 +812,25 @@ msgstr ""
 #: fullstory/inc/functions/functions-footer.php:94
 #: fullstory/inc/functions/functions-footer.php:95
 #: fullstory/inc/functions/functions-footer.php:96
-#: fullstory/inc/functions/functions-header.php:109
-#: fullstory/inc/functions/functions-header.php:110
-#: fullstory/inc/functions/functions-header.php:111
 #: fullstory/inc/functions/functions-header.php:112
+#: fullstory/inc/functions/functions-header.php:113
+#: fullstory/inc/functions/functions-header.php:114
+#: fullstory/inc/functions/functions-header.php:115
 msgid "Posts"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:81
+#: fullstory/inc/single/single-content.php:1
 msgid "Previous article"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:10
+#: fullstory/inc/single/single-content.php:1
 msgid "Read More:"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-comment.php:101
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "Reply"
 msgstr ""
 
@@ -919,7 +895,7 @@ msgid "Search Page Sidebar"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-title.php:11
+#: fullstory/inc/functions/functions-title.php:1
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -929,14 +905,14 @@ msgid "Settings"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-header.php:238
-#: fullstory/inc/single/single-content.php:25
+#: fullstory/inc/functions/functions-header.php:214
+#: fullstory/inc/single/single-content.php:1
 #: fullstory/inc/single/single-heads.php:76
 msgid "Share on Facebook"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-heads.php:69
+#: fullstory/inc/single/single-heads.php:74
 msgid "Shares"
 msgstr ""
 
@@ -1000,9 +976,8 @@ msgstr ""
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#. Text in echo
-#: fullstory/search.php:44
-#: fullstory/search.php:53
+#. Text in function
+#: fullstory/search.php:7
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr ""
 
@@ -1012,18 +987,19 @@ msgid "Style"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "Submit Comment"
 msgstr ""
 
 #. Text in echo
 #: fullstory/inc/functions/functions-footer.php:96
-#: fullstory/inc/functions/functions-header.php:112
+#: fullstory/inc/functions/functions-header.php:115
 msgid "TRENDING"
 msgstr ""
 
 #. Text in function
-#: fullstory/tag.php:18
+#: fullstory/tag.php:1
 msgid "Tag"
 msgstr ""
 
@@ -1087,13 +1063,14 @@ msgstr ""
 msgid "This plugin needs to be updated to be compatible with your theme."
 msgstr ""
 
-#. Text in echo
-#: fullstory/comments.php:9
+#. Text in function
+#: fullstory/comments.php:99
 msgid "This post is password protected. Enter the password to view and post comments."
 msgstr ""
 
-#. Text in echo
-#: fullstory/searchform.php:2
+#. Text in function
+#: fullstory/inc/functions/functions-header.php:1
+#: fullstory/searchform.php:1
 msgid "To search type and hit enter"
 msgstr ""
 
@@ -1107,14 +1084,14 @@ msgstr ""
 msgid "Top Space"
 msgstr ""
 
-#. Text in echo
-#: fullstory/inc/single/single-sidebar.php:25
+#. Text in function
+#: fullstory/inc/single/single-sidebar.php:1
 msgid "Trending Posts"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/functions/functions-header.php:239
-#: fullstory/inc/single/single-content.php:26
+#: fullstory/inc/functions/functions-header.php:214
+#: fullstory/inc/single/single-content.php:1
 #: fullstory/inc/single/single-heads.php:77
 msgid "Tweet on Twitter"
 msgstr ""
@@ -1122,11 +1099,6 @@ msgstr ""
 #. Text in function
 #: fullstory/inc/customizer/customizer-footer.php:15
 msgid "Twitter icon link"
-msgstr ""
-
-#. Text in echo
-#: fullstory/inc/functions/functions-header.php:88
-msgid "Type and hit enter to search ..."
 msgstr ""
 
 #. Text in function
@@ -1161,12 +1133,12 @@ msgstr ""
 
 #. Text in function
 #: fullstory/inc/functions/functions-comment.php:1
-#: fullstory/inc/functions/functions-general.php:26
+#: fullstory/inc/functions/functions-general.php:29
 msgid "View all posts by %s"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-heads.php:70
+#: fullstory/inc/single/single-heads.php:75
 msgid "Views"
 msgstr ""
 
@@ -1176,7 +1148,7 @@ msgid "Vimeo icon link"
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Website"
 msgstr ""
 
@@ -1191,17 +1163,22 @@ msgid "YOUR AD CODE"
 msgstr ""
 
 #. Text in function
-#: fullstory/inc/single/single-content.php:87
+#: fullstory/inc/single/single-content.php:1
 msgid "You may be interested"
 msgstr ""
 
-#. Text in echo
-#: fullstory/inc/functions/functions-comment.php:93
+#. Text in function
+#: fullstory/comments.php:99
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in function
+#: fullstory/inc/functions/functions-comment.php:1
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #. Text in function
-#: fullstory/comments.php:84
+#: fullstory/comments.php:99
 msgid "Your email address will not be published."
 msgstr ""
 

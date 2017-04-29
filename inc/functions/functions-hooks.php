@@ -41,7 +41,8 @@ function fullstory_css() {
 			.mt-subscribe-footer input.mt-s-b:hover,
 			.poster:hover h2, .poster-small:hover h4, .poster-small-bottom:hover h4,
 			.poster-cat span,
-			.mt-review a:hover {';
+			.mt-review a:hover,
+			.nave.df-megamenu-nav-sub .active a.mt-sub-cat-a {';
 			if(!empty($options_in['textinbackground'])){ if($options_in['textinbackground']!='#fffff1'){
 				$custom_styles .=' color: '. esc_attr($options_in['textinbackground']) .'!important; ';
 			}}
@@ -191,10 +192,11 @@ function fullstory_css() {
 	 $options_in = get_option("mt_colors_menu_link_sub");
 	 if(!empty($options_in)){
 			if(!empty($options_in['text'])){if($options_in['text']!='#fffff1'){
-				$custom_styles .='.sf-menu ul li a { color:'. esc_attr($options_in['text']) .'!important; }';
+				$custom_styles .='.sf-menu ul li a,
+				.nave.df-megamenu-nav-sub a.mt-sub-cat-a { color:'. esc_attr($options_in['text']) .'!important; }';
 				$custom_styles .='.megamenu-span h4 { color:'. esc_attr($options_in['text']) .'!important; }';
 			}}
-			if(!empty($options_in['background'])){if($options_in['background']!='#fffff1'){ $custom_styles .='.sf-menu ul li a, .sf-menu ul li, .df-is-megamenu ul, .df-is-megamenu ul li .mega-post-in a:hover { background-color:'. esc_attr($options_in['background']) .'!important; }'; }}
+			if(!empty($options_in['background'])){if($options_in['background']!='#fffff1'){ $custom_styles .='.sf-menu ul li a, .sf-menu ul li, .df-is-megamenu ul, .df-is-megamenu ul li .mega-post-in a:hover,.nave.df-megamenu-nav-sub .active a.mt-sub-cat-a { background-color:'. esc_attr($options_in['background']) .'!important; } .df-is-megamenu ul li, ul.sf-menu ul li a, div.sf-menu ul ul li a { border-color:'. esc_attr($options_in['background']) .'!important; }'; }}
 
 		} else if(!empty($options['colors_menu_sub']) or !empty($options['colors_menu_sub_background'])){
 		 $custom_styles .='.sf-menu ul li a {';
@@ -210,7 +212,8 @@ function fullstory_css() {
 			 ul.sf-menu ul li.current-menu-item > a, div.sf-menu ul ul ul li.current-menu-item > a,
 			 ul.sf-menu ul li.current_page_item > a, div.sf-menu ul ul ul li.current_page_item > a,
 			 ul.sf-menu ul li.current-menu-ancestor > a, div.sf-menu ul ul ul li.current-menu-ancestor > a,
-			 ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover { ';
+			 ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
+			 .nave.df-megamenu-nav-sub .active a.mt-sub-cat-a { ';
 					if(!empty($options_in['background_hover'])){ $custom_styles .='background:'. esc_attr($options_in['background_hover']) .'!important;'; }
 					if(!empty($options_in['text_hover'])){ $custom_styles .='color:'. esc_attr($options_in['text_hover']) .'!important;'; }
 			 $custom_styles .='}';
