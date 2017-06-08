@@ -30,7 +30,7 @@ function fullstory_paging_nav() {
 }
 endif;
 
-$navigation_speed = "4.8";
+$navigation_speed = "4.9";
 
 
 if ( ! function_exists( 'fullstory_entry_meta' ) ) {
