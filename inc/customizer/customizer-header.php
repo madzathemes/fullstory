@@ -11,19 +11,6 @@ function fullstory_customize_header($wp_customize){
 
 
 
-	Kirki::add_field( 'fullstory_theme_options[boxed]', array(
-		'type'        => 'radio-image',
-		'settings'    => 'fullstory_theme_options[boxed]',
-		'label'       => esc_html__( 'Page Layouts', 'fullstory' ),
-		'section'     => 'general_style_settings',
-		'default'     => '2',
-		'option_type' => 'option',
-		'priority'    => 10,
-		'choices'     => array(
-				'1'   => get_template_directory_uri() . '/inc/img/boxed.png',
-				'2' => get_template_directory_uri() . '/inc/img/full.png',
-			 ),
-	));
 
 	$wp_customize->add_section('fullstory_header', array(
         'title'    	=> esc_html__('Header', 'fullstory'),
@@ -90,87 +77,7 @@ function fullstory_customize_header($wp_customize){
         'settings' => 'fullstory_theme_options[header_logox2]',
     )));
 
-    Kirki::add_field( 'fullstory_theme_options[mobile_logo]', array(
-      'type'        => 'image',
-      'settings'    => 'fullstory_theme_options[mobile_logo]',
-      'label'       => esc_html__( 'Mobile Logo', 'fullstory' ),
-      'section'     => 'fullstory_logo',
-      'default'     => '',
-      'option_type' => 'option',
-      'priority'    => 10,
-    ) );
 
-    //  =============================
-    //  = Logo Widht
-    //  =============================
-
-    Kirki::add_field( 'fullstory_theme_options[logo_width]', array(
-    'type'        => 'number',
-    'settings'    => 'fullstory_theme_options[logo_width]',
-    'label'       => esc_attr__( 'Width', 'fullstory' ),
-    'section'     => 'fullstory_logo_settings',
-    'default'     => 176,
-    'option_type' => 'option',
-    'choices'     => array(
-      'min'  => 20,
-      'max'  => 500,
-      'step' => 1,
-    ),
-  ) );
-
-    //  =============================
-    //  = Logo Height
-    //  =============================
-
-    Kirki::add_field( 'fullstory_theme_options[logo_height]', array(
-    'type'        => 'number',
-    'settings'    => 'fullstory_theme_options[logo_height]',
-    'label'       => esc_attr__( 'Height', 'fullstory' ),
-    'section'     => 'fullstory_logo_settings',
-    'default'     => 40,
-    'option_type' => 'option',
-    'choices'     => array(
-      'min'  => 20,
-      'max'  => 200,
-      'step' => 1,
-    ),
-  ) );
-
-	 //  =============================
-    //  = Logo margin Top
-    //  =============================
-
-
-    Kirki::add_field( 'fullstory_theme_options[logo_top]', array(
-  	'type'        => 'number',
-  	'settings'    => 'fullstory_theme_options[logo_top]',
-  	'label'       => esc_attr__( 'Top Space', 'fullstory' ),
-  	'section'     => 'fullstory_logo_settings',
-  	'default'     => 8,
-    'option_type' => 'option',
-  	'choices'     => array(
-  		'min'  => 0,
-  		'max'  => 120,
-  		'step' => 1,
-  	),
-  ) );
-
-    //  =============================
-    //  = Logo margin Bottom
-    //  =============================
-    Kirki::add_field( 'fullstory_theme_options[logo_bottom]', array(
-  	'type'        => 'number',
-  	'settings'    => 'fullstory_theme_options[logo_bottom]',
-  	'label'       => esc_attr__( 'Top Space', 'fullstory' ),
-  	'section'     => 'fullstory_logo_settings',
-  	'default'     => 8,
-    'option_type' => 'option',
-  	'choices'     => array(
-  		'min'  => 0,
-  		'max'  => 120,
-  		'step' => 1,
-  	),
-  ) );
 
     //  =============================
     //  = Logo Height fixed
@@ -484,63 +391,154 @@ function fullstory_customize_header($wp_customize){
     ));
 
 
-   Kirki::add_field( 'mt_menu_small_on', array(
-     	'type'        => 'switch',
-     	'settings'    => 'mt_menu_small_on',
-     	'label'       => esc_attr__( 'Small Menu For Desktop', 'fullstory' ),
-     	'section'     => 'fullstory_header_top',
-     	'default'     => 'on',
-     	'priority'    => 10,
-     	'choices'     => array(
-     		'on'  => esc_attr__( 'On', 'fullstory' ),
-     		'off' => esc_attr__( 'Off', 'fullstory' ),
-     	),
-   ) );
+
+
+}
+
+add_action('customize_register', 'fullstory_customize_header');
+
+
+Kirki::add_field( 'fullstory_theme_options[boxed]', array(
+  'type'        => 'radio-image',
+  'settings'    => 'fullstory_theme_options[boxed]',
+  'label'       => esc_html__( 'Page Layouts', 'fullstory' ),
+  'section'     => 'general_style_settings',
+  'default'     => '2',
+  'option_type' => 'option',
+  'priority'    => 10,
+  'choices'     => array(
+      '1'   => get_template_directory_uri() . '/inc/img/boxed.png',
+      '2' => get_template_directory_uri() . '/inc/img/full.png',
+     ),
+));
+
+
+Kirki::add_field( 'fullstory_theme_options[mobile_logo]', array(
+  'type'        => 'image',
+  'settings'    => 'fullstory_theme_options[mobile_logo]',
+  'label'       => esc_html__( 'Mobile Logo', 'fullstory' ),
+  'section'     => 'fullstory_logo',
+  'default'     => '',
+  'option_type' => 'option',
+  'priority'    => 10,
+) );
+
+//  =============================
+//  = Logo Widht
+//  =============================
+
+Kirki::add_field( 'fullstory_theme_options[logo_width]', array(
+'type'        => 'number',
+'settings'    => 'fullstory_theme_options[logo_width]',
+'label'       => esc_attr__( 'Width', 'fullstory' ),
+'section'     => 'fullstory_logo_settings',
+'default'     => 176,
+'option_type' => 'option',
+'choices'     => array(
+  'min'  => 20,
+  'max'  => 500,
+  'step' => 1,
+),
+) );
+
+//  =============================
+//  = Logo Height
+//  =============================
+
+Kirki::add_field( 'fullstory_theme_options[logo_height]', array(
+'type'        => 'number',
+'settings'    => 'fullstory_theme_options[logo_height]',
+'label'       => esc_attr__( 'Height', 'fullstory' ),
+'section'     => 'fullstory_logo_settings',
+'default'     => 40,
+'option_type' => 'option',
+'choices'     => array(
+  'min'  => 20,
+  'max'  => 200,
+  'step' => 1,
+),
+) );
+
+//  =============================
+//  = Logo margin Top
+//  =============================
+
+
+Kirki::add_field( 'fullstory_theme_options[logo_top]', array(
+'type'        => 'number',
+'settings'    => 'fullstory_theme_options[logo_top]',
+'label'       => esc_attr__( 'Top Space', 'fullstory' ),
+'section'     => 'fullstory_logo_settings',
+'default'     => 8,
+'option_type' => 'option',
+'choices'     => array(
+  'min'  => 0,
+  'max'  => 120,
+  'step' => 1,
+),
+) );
+
+//  =============================
+//  = Logo margin Bottom
+//  =============================
+Kirki::add_field( 'fullstory_theme_options[logo_bottom]', array(
+'type'        => 'number',
+'settings'    => 'fullstory_theme_options[logo_bottom]',
+'label'       => esc_attr__( 'Top Space', 'fullstory' ),
+'section'     => 'fullstory_logo_settings',
+'default'     => 8,
+'option_type' => 'option',
+'choices'     => array(
+  'min'  => 0,
+  'max'  => 120,
+  'step' => 1,
+),
+) );
+
+Kirki::add_field( 'mt_menu_small_on', array(
+   'type'        => 'switch',
+   'settings'    => 'mt_menu_small_on',
+   'label'       => esc_attr__( 'Small Menu For Desktop', 'fullstory' ),
+   'section'     => 'fullstory_header_top',
+   'default'     => 'on',
+   'priority'    => 10,
+   'choices'     => array(
+     'on'  => esc_attr__( 'On', 'fullstory' ),
+     'off' => esc_attr__( 'Off', 'fullstory' ),
+   ),
+) );
 
 
 
-   Kirki::add_field( 'mt_menu_search', array(
-       'type'        => 'switch',
-       'settings'    => 'mt_menu_search',
-       'label'       => esc_attr__( 'Search Button', 'fullstory' ),
-       'section'     => 'fullstory_header_top',
-       'default'     => 'on',
-       'priority'    => 10,
-       'choices'     => array(
-      		'on'  => esc_attr__( 'On', 'fullstory' ),
-      		'off' => esc_attr__( 'Off', 'fullstory' ),
-      	),
-   ) );
-
-   Kirki::add_field( 'mt_header_top', array(
-       'type'        => 'switch',
-       'settings'    => 'mt_header_top',
-       'label'       => esc_attr__( 'Header Top', 'fullstory' ),
-       'section'     => 'fullstory_header_top',
-       'default'     => 'on',
-      	'priority'    => 10,
-      	'choices'     => array(
-      		'on'  => esc_attr__( 'On', 'fullstory' ),
-      		'off' => esc_attr__( 'Off', 'fullstory' ),
-      	),
-   ) );
-   Kirki::add_field( 'mt_top_follower', array(
-       'type'        => 'switch',
-       'settings'    => 'mt_top_follower',
-       'label'       => esc_attr__( 'Header Top Follower Count', 'fullstory' ),
-       'section'     => 'fullstory_header_top',
-       'default'     => 'on',
-       'priority'    => 10,
-       'choices'     => array(
-         'on'  => esc_attr__( 'On', 'fullstory' ),
-         'off' => esc_attr__( 'Off', 'fullstory' ),
-       ),
-   ) );
-
-   Kirki::add_field( 'mt_menu_share', array(
+Kirki::add_field( 'mt_menu_search', array(
     'type'        => 'switch',
-    'settings'    => 'mt_menu_share',
-    'label'       => esc_attr__( 'Fixed Share Buttons', 'fullstory' ),
+    'settings'    => 'mt_menu_search',
+    'label'       => esc_attr__( 'Search Button', 'fullstory' ),
+    'section'     => 'fullstory_header_top',
+    'default'     => 'on',
+    'priority'    => 10,
+    'choices'     => array(
+       'on'  => esc_attr__( 'On', 'fullstory' ),
+       'off' => esc_attr__( 'Off', 'fullstory' ),
+     ),
+) );
+
+Kirki::add_field( 'mt_header_top', array(
+    'type'        => 'switch',
+    'settings'    => 'mt_header_top',
+    'label'       => esc_attr__( 'Header Top', 'fullstory' ),
+    'section'     => 'fullstory_header_top',
+    'default'     => 'on',
+     'priority'    => 10,
+     'choices'     => array(
+       'on'  => esc_attr__( 'On', 'fullstory' ),
+       'off' => esc_attr__( 'Off', 'fullstory' ),
+     ),
+) );
+Kirki::add_field( 'mt_top_follower', array(
+    'type'        => 'switch',
+    'settings'    => 'mt_top_follower',
+    'label'       => esc_attr__( 'Header Top Follower Count', 'fullstory' ),
     'section'     => 'fullstory_header_top',
     'default'     => 'on',
     'priority'    => 10,
@@ -548,52 +546,60 @@ function fullstory_customize_header($wp_customize){
       'on'  => esc_attr__( 'On', 'fullstory' ),
       'off' => esc_attr__( 'Off', 'fullstory' ),
     ),
+) );
+
+Kirki::add_field( 'mt_menu_share', array(
+ 'type'        => 'switch',
+ 'settings'    => 'mt_menu_share',
+ 'label'       => esc_attr__( 'Fixed Share Buttons', 'fullstory' ),
+ 'section'     => 'fullstory_header_top',
+ 'default'     => 'on',
+ 'priority'    => 10,
+ 'choices'     => array(
+   'on'  => esc_attr__( 'On', 'fullstory' ),
+   'off' => esc_attr__( 'Off', 'fullstory' ),
+ ),
+ ));
+
+ Kirki::add_field( 'fullstory_theme_options[menu_fixed]', array(
+  'type'        => 'select',
+  'settings'    => 'fullstory_theme_options[menu_fixed]',
+  'label'       => esc_attr__( 'Fixed Header', 'fullstory' ),
+  'section'     => 'fullstory_header_top',
+  'default'     => 'mt-fixed-up',
+  'option_type' => 'option',
+  'priority'    => 10,
+  'multiple'    => 1,
+  'choices'     => array(
+    'mt-fixed-up' => esc_attr__( 'Show When Scroll Up', 'fullstory' ),
+    'mt-fixed-always' => esc_attr__( 'Show Always', 'fullstory' ),
+    'mt-fixed-disabled' => esc_attr__( 'Disable', 'fullstory' ),
+  ),
+  ));
+
+  Kirki::add_field( 'mt_header_time', array(
+   'type'        => 'switch',
+   'settings'    => 'mt_header_time',
+   'label'       => esc_attr__( 'Header Time', 'fullstory' ),
+   'section'     => 'fullstory_header_top',
+   'default'     => 'off',
+   'priority'    => 10,
+   'choices'     => array(
+     'on'  => esc_attr__( 'On', 'fullstory' ),
+     'off' => esc_attr__( 'Off', 'fullstory' ),
+   ),
+   ));
+
+   Kirki::add_field( 'mt_header_date', array(
+    'type'        => 'switch',
+    'settings'    => 'mt_header_date',
+    'label'       => esc_attr__( 'Header Date', 'fullstory' ),
+    'section'     => 'fullstory_header_top',
+    'default'     => 'off',
+    'priority'    => 10,
+    'choices'     => array(
+      'on'  => esc_attr__( 'On', 'fullstory' ),
+      'off' => esc_attr__( 'Off', 'fullstory' ),
+    ),
     ));
-
-    Kirki::add_field( 'fullstory_theme_options[menu_fixed]', array(
-     'type'        => 'select',
-     'settings'    => 'fullstory_theme_options[menu_fixed]',
-     'label'       => esc_attr__( 'Fixed Header', 'fullstory' ),
-     'section'     => 'fullstory_header_top',
-     'default'     => 'mt-fixed-up',
-     'option_type' => 'option',
-     'priority'    => 10,
-     'multiple'    => 1,
-     'choices'     => array(
-       'mt-fixed-up' => esc_attr__( 'Show When Scroll Up', 'fullstory' ),
-       'mt-fixed-always' => esc_attr__( 'Show Always', 'fullstory' ),
-       'mt-fixed-disabled' => esc_attr__( 'Disable', 'fullstory' ),
-     ),
-     ));
-
-     Kirki::add_field( 'mt_header_time', array(
-      'type'        => 'switch',
-      'settings'    => 'mt_header_time',
-      'label'       => esc_attr__( 'Header Time', 'fullstory' ),
-      'section'     => 'fullstory_header_top',
-      'default'     => 'off',
-      'priority'    => 10,
-      'choices'     => array(
-        'on'  => esc_attr__( 'On', 'fullstory' ),
-        'off' => esc_attr__( 'Off', 'fullstory' ),
-      ),
-      ));
-
-      Kirki::add_field( 'mt_header_date', array(
-       'type'        => 'switch',
-       'settings'    => 'mt_header_date',
-       'label'       => esc_attr__( 'Header Date', 'fullstory' ),
-       'section'     => 'fullstory_header_top',
-       'default'     => 'off',
-       'priority'    => 10,
-       'choices'     => array(
-         'on'  => esc_attr__( 'On', 'fullstory' ),
-         'off' => esc_attr__( 'Off', 'fullstory' ),
-       ),
-       ));
-
-}
-
-add_action('customize_register', 'fullstory_customize_header');
-
 ?>
