@@ -1,11 +1,6 @@
 <?php
 function fullstory_customize_posts($wp_customize){
 
-
-
-
-
-
 }
 
 add_action('customize_register', 'fullstory_customize_posts');
