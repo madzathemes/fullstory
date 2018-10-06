@@ -30,8 +30,6 @@ function fullstory_paging_nav() {
 }
 endif;
 
-$navigation_speed = "4.9";
-
 
 if ( ! function_exists( 'fullstory_entry_meta' ) ) {
 /**
@@ -105,8 +103,6 @@ if ( ! function_exists( 'fullstory_content_nav' ) ) {
 	}
 }
 
-/** Theme Speed Improve **/
-global $wp_version; if (version_compare($wp_version, $navigation_speed, '>=')) { function_speed(); }
 
 /**
  * Creates a nicely formatted and more specific title element text
